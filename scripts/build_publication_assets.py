@@ -204,7 +204,7 @@ def build_publication_summary(
         "schema_version": 1,
         "project": {
             "name": "Devin + SWE-2 Reasoning Effort Benchmark",
-            "repository": "https://github.com/MAJORminorStudio/devin-agent-benchmark",
+            "repository": "https://github.com/majorminorlabs/research-devin-agent-benchmark",
             "publisher": "MAJORminor Studio",
             "publication_version": "1.0.0",
             "publication_date": "2026-09-15",
