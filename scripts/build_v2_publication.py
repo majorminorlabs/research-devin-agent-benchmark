@@ -339,7 +339,7 @@ def build_summary(records: list[dict[str, Any]], cases: list[dict[str, Any]], so
         "publication_version": "2.0.0",
         "source_evidence_base_commit": source_base_commit,
         "project": "Devin + SWE-2 Reasoning Effort Benchmark",
-        "repository": "https://github.com/MAJORminorStudio/devin-agent-benchmark",
+        "repository": "https://github.com/majorminorlabs/research-devin-agent-benchmark",
         "research_questions": [
             "Does the E002 Medium-versus-Max result replicate on five newly constructed cases withheld until the protocol was frozen?",
             "How do the conditions compare on behavioral success and observable resource use across the combined ten-case study?",

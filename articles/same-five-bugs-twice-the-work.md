@@ -32,7 +32,7 @@ The design was paired. Within each pair the task was identical. Each run started
 
 There were no retries and no substantive intervention. After each Devin session closed, a held-out evaluator ran the public project test, an independent behavioral test the agent never saw, and a practical regression subset. The evaluator tests were outside the agent workspace, unavailable to Devin during execution, and run only after the session closed. They were subsequently published with the research evidence. `TASK_SUCCESS` required all three. A patch that made the visible test green and missed the held-out contract did not count.
 
-The frozen protocol is in the [v1.0.0 research report](https://github.com/MAJORminorStudio/devin-agent-benchmark/blob/v1.0.0/reports/swe-2-medium-vs-max-research-report.md).
+The frozen protocol is in the [v1.0.0 research report](https://github.com/majorminorlabs/research-devin-agent-benchmark/blob/v1.0.0/reports/swe-2-medium-vs-max-research-report.md).
 
 ## Results
 
@@ -93,7 +93,7 @@ For autonomous coding agents, that distinction is the point of holding tests out
 
 ## What did the extra activity buy?
 
-The [forensic analysis](https://github.com/MAJORminorStudio/devin-agent-benchmark/blob/v1.0.0/reports/experiment-002-forensic-analysis.md) stays on observables: wall time, tool calls, commands, edits, user-visible messages. Hidden reasoning was not read and is not reconstructed here.
+The [forensic analysis](https://github.com/majorminorlabs/research-devin-agent-benchmark/blob/v1.0.0/reports/experiment-002-forensic-analysis.md) stays on observables: wall time, tool calls, commands, edits, user-visible messages. Hidden reasoning was not read and is not reconstructed here.
 
 Max had higher wall time in 5/5 pairs, more observable tool calls in 5/5 pairs, and more steps in 4/5 pairs. Aggregate prompt and completion token use was substantially higher for Max. The largest time gaps were FastAPI and Scrapy, both successes, not the tqdm miss.
 
@@ -113,7 +113,7 @@ Before any of those repairs existed, we ran the same five cases, same pair struc
 
 That was not evidence that SWE-2 could not solve the bugs. Experiment 001 used the unattended CLI with `accept-edits`. File edits were acceptable. Shell commands still required confirmation. A noninteractive process cannot supply that confirmation. Required tool calls were rejected in all ten runs. Every patch was empty.
 
-We kept the runs. Empty patches, rejected tool records, permission warnings, and evaluator output are in the [public E001 artifacts](https://github.com/MAJORminorStudio/devin-agent-benchmark/tree/v1.0.0/artifacts/experiment-001). Discarding them would have made the later 9/10 look cleaner than the work actually was.
+We kept the runs. Empty patches, rejected tool records, permission warnings, and evaluator output are in the [public E001 artifacts](https://github.com/majorminorlabs/research-devin-agent-benchmark/tree/v1.0.0/artifacts/experiment-001). Discarding them would have made the later 9/10 look cleaner than the work actually was.
 
 Experiment 002 changed one operational fact: the agent received effective Bypass so it could inspect files, execute shell commands, edit source, and execute tests without waiting for a human. Because that setting permits unrestricted actions, the runs went inside disposable isolated Docker containers with a read-only root filesystem, all Linux capabilities dropped, no-new-privileges, no Docker socket, no host repository mount, one sanitized workspace, and allowlisted egress. Cases, prompts, model IDs, run order, scoring, and the no-intervention rule did not change. Under that configuration, nine of the ten repairs succeeded. Zero structured tool rejections occurred.
 
@@ -146,7 +146,7 @@ This is a five-case pilot. The sample is small, and that limit is real. The case
 
 ## Why the files are public
 
-The [v1.0.0 release](https://github.com/MAJORminorStudio/devin-agent-benchmark/releases/tag/v1.0.0) includes the frozen protocol, the prompts, the run order, the patches, the evaluator outputs, sanitized tool timelines, session summaries, the forensic analysis, the held-out tests, and machine-readable results. The [research report](https://github.com/MAJORminorStudio/devin-agent-benchmark/blob/v1.0.0/reports/swe-2-medium-vs-max-research-report.md) and [forensic analysis](https://github.com/MAJORminorStudio/devin-agent-benchmark/blob/v1.0.0/reports/experiment-002-forensic-analysis.md) provide the narrative and observable-metrics records. The [E001 artifacts](https://github.com/MAJORminorStudio/devin-agent-benchmark/tree/v1.0.0/artifacts/experiment-001) and [E002 artifacts](https://github.com/MAJORminorStudio/devin-agent-benchmark/tree/v1.0.0/artifacts/experiment-002) preserve the per-run evidence. Held-out tests were hidden during execution and published afterward with the research evidence.
+The [v1.0.0 release](https://github.com/majorminorlabs/research-devin-agent-benchmark/releases/tag/v1.0.0) includes the frozen protocol, the prompts, the run order, the patches, the evaluator outputs, sanitized tool timelines, session summaries, the forensic analysis, the held-out tests, and machine-readable results. The [research report](https://github.com/majorminorlabs/research-devin-agent-benchmark/blob/v1.0.0/reports/swe-2-medium-vs-max-research-report.md) and [forensic analysis](https://github.com/majorminorlabs/research-devin-agent-benchmark/blob/v1.0.0/reports/experiment-002-forensic-analysis.md) provide the narrative and observable-metrics records. The [E001 artifacts](https://github.com/majorminorlabs/research-devin-agent-benchmark/tree/v1.0.0/artifacts/experiment-001) and [E002 artifacts](https://github.com/majorminorlabs/research-devin-agent-benchmark/tree/v1.0.0/artifacts/experiment-002) preserve the per-run evidence. Held-out tests were hidden during execution and published afterward with the research evidence.
 
 MAJOR//minor's research identity depends on that inspectability. A result like this one should be readable from the traces, including the failure we had to correct. The tqdm split can be checked against the held-out test and both patches in the public artifacts. The 38× file-change ratio can be checked against the source-only diffs. The jump from 0/5 to 9/10 can be checked against the rejected tool calls from E001.
 

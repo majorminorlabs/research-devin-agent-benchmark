@@ -7,7 +7,7 @@ authors:
 version: "2.0.0"
 date-released: "2026-09-15"
 license: MIT
-repository-code: "https://github.com/MAJORminorStudio/devin-agent-benchmark"
+repository-code: "https://github.com/majorminorlabs/research-devin-agent-benchmark"
 abstract: >-
   An independent exploratory paired evaluation of Cognition's Devin agent on
   five historical BugsInPy repairs and five newly constructed software

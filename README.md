@@ -7,7 +7,7 @@ across three balanced difficulty tiers with identical prompts within each pair,
 fresh sanitized workspaces, hidden evaluator tests, and zero substantive
 intervention.
 
-**Publications:** [v4.0.0 — three difficulty tiers](https://github.com/MAJORminorStudio/devin-agent-benchmark/releases/tag/v4.0.0) · [v3.0.0 — moderate and hard tiers](https://github.com/MAJORminorStudio/devin-agent-benchmark/releases/tag/v3.0.0) · [v2.0.0 — ten-case paired pilot](https://github.com/MAJORminorStudio/devin-agent-benchmark/releases/tag/v2.0.0) · [v1.0.0 — first public research release](https://github.com/MAJORminorStudio/devin-agent-benchmark/releases/tag/v1.0.0)
+**Publications:** [v4.0.0 — three difficulty tiers](https://github.com/majorminorlabs/research-devin-agent-benchmark/releases/tag/v4.0.0) · [v3.0.0 — moderate and hard tiers](https://github.com/majorminorlabs/research-devin-agent-benchmark/releases/tag/v3.0.0) · [v2.0.0 — ten-case paired pilot](https://github.com/majorminorlabs/research-devin-agent-benchmark/releases/tag/v2.0.0) · [v1.0.0 — first public research release](https://github.com/majorminorlabs/research-devin-agent-benchmark/releases/tag/v1.0.0)
 
 ## V4 final primary benchmark
 
@@ -34,7 +34,7 @@ remains methodological provenance and is not counted in the primary denominator.
 For the short external-reader path, start with the [final report](reports/devin-swe2-reasoning-effort-v4-final.md),
 then inspect the [machine-readable data](results/publication-v4-summary.json),
 [sanitized evidence](artifacts/publication-v4/README.md), and the
-[v4.0.0 release](https://github.com/MAJORminorStudio/devin-agent-benchmark/releases/tag/v4.0.0).
+[v4.0.0 release](https://github.com/majorminorlabs/research-devin-agent-benchmark/releases/tag/v4.0.0).
 The companion [MAJOR//minor article](https://majorminor.xyz/blog/value-of-more-reasoning-changed-with-difficulty)
 provides the narrative overview.
 
