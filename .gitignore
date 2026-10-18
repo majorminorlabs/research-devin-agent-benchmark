@@ -12,3 +12,12 @@ manifests/ground-truth/*.local.json
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# Keep operational publication material out of research commits.
+SOCIAL/
+_internal/
+*HANDOFF*
+*PROMPT*
+*SOCIAL-DRAFTS*
+responses/
+*.pyc

@@ -26,7 +26,6 @@ cfad9f83fc2af1a3292e9d790db3d6b997b5bf64042206afd25c6c916ed36a61  artifacts/publ
 8b4a39a9d5cd17ba54cec3f87345d32c2207a2430e9db7669368b2924805e4aa  artifacts/publication-v5.0.0/docs/E008-EVALUATOR-RECHECK.md
 b9abf2e51eb6bf5f42043ff3f4b9f175a313f36aad9b4c77bbbf2f18d6cfdb3f  artifacts/publication-v5.0.0/docs/E008-PROTOCOL.md
 873b60838e5ced27a0963d6753140cdd6eb91c28ed425f63990ffd927869eea5  artifacts/publication-v5.0.0/docs/E008-REPORT.md
-4fcb0159acaa451afc0a51d543e14abfc95e875429cff4182077f61c8baf9a46  artifacts/publication-v5.0.0/docs/E008-RERUN-PLAN.md
 deaa6dade29659b3ae5e4ec4f8e79ae982728ecaf907c4e2df3befaa5a0d6430  artifacts/publication-v5.0.0/docs/E008-STABILITY-ANALYSIS.md
 a06f0fee5d04c4690713737ea82f8907da16ce7f688831e449339a100e068521  artifacts/publication-v5.0.0/figures/01-clean-e007-score-by-effort.png
 c94c7f68559316fd3e187dec8a6e061d6043c7bdbaed5b00870c1389949c3a86  artifacts/publication-v5.0.0/figures/02-clean-e007-by-difficulty-effort.png
