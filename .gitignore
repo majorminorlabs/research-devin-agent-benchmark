@@ -21,3 +21,8 @@ _internal/
 *SOCIAL-DRAFTS*
 responses/
 *.pyc
+
+# Article text and publication metadata belong in the site repository.
+ARTICLE.md
+ARTICLE-METADATA.json
+*-METADATA.json
