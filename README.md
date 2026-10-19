@@ -35,7 +35,7 @@ For the short external-reader path, start with the [final report](reports/devin-
 then inspect the [machine-readable data](results/publication-v4-summary.json),
 [sanitized evidence](artifacts/publication-v4/README.md), and the
 [v4.0.0 release](https://github.com/majorminorlabs/research-devin-agent-benchmark/releases/tag/v4.0.0).
-The companion [MAJOR//minor article](https://majorminor.xyz/blog/value-of-more-reasoning-changed-with-difficulty)
+The companion [MAJOR//minor article](https://majorminor.xyz/notebook/devin-reasoning-effort)
 provides the narrative overview.
 
 The central result is not a universal winner claim: Medium leads on the
@@ -168,7 +168,7 @@ forensic account is in the [E002 forensic analysis](reports/experiment-002-foren
   read-only root, dropped capabilities, no-new-privileges, no Docker socket,
   no control-repository mount, a single workspace, and restricted egress.
 
-The harness is intentionally isolated from the lab's unrelated systems and
+The harness is intentionally isolated from my unrelated systems and
 production work. BugsInPy is an external checkout and is not vendored here.
 
 ## Evidence and reproduction
