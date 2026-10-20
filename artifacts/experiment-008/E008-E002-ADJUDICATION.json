@@ -1,0 +1,261 @@
+{
+  "adjudications": [
+    {
+      "adjudicated_at_utc": "2026-09-26T15:07:59.698256+00:00",
+      "case_id": "E002-C02",
+      "corrected_evaluator_status": "valid",
+      "devin_session_rerun": false,
+      "effort": "medium",
+      "evaluator_output_sha256": "32273f774359f3733a03570d4c62ff6bc708928ad541725c255520950dde8ead",
+      "evaluator_result_path": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C02-MEDIUM-R1/post-harness-evaluation/evaluation-result.json",
+      "initial_error": "KeyError: run_id; E008-to-E001 adapter field mapping failure before test execution",
+      "initial_local_adapter_status": "evaluator_infrastructure_invalid",
+      "returncode": 0,
+      "run_id": "E008-E002-C02-MEDIUM-R1",
+      "sanitation": {
+        "evaluator_copy": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C02-MEDIUM-R1/post-harness-clean-evaluator",
+        "prompt_sha256_verified": true,
+        "removed_evaluator_cache_paths": [],
+        "verified_cache_free_before_evaluation": true,
+        "workspace_generated_caches_removed_before_re_evaluation": []
+      },
+      "session_id": "band-barracuda",
+      "started_at_utc": "2026-09-26T15:07:56.859373+00:00",
+      "suite_results": {
+        "heldout": "pass",
+        "public": "pass",
+        "regression": "pass"
+      },
+      "task_success": true
+    },
+    {
+      "adjudicated_at_utc": "2026-09-26T15:08:02.962583+00:00",
+      "case_id": "E002-C02",
+      "corrected_evaluator_status": "valid",
+      "devin_session_rerun": false,
+      "effort": "medium",
+      "evaluator_output_sha256": "487bdfa9670e607e5fe8559e7057d7a8b5039f12f055bee9454415ec87e735ac",
+      "evaluator_result_path": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C02-MEDIUM-R2/post-harness-evaluation/evaluation-result.json",
+      "initial_error": "KeyError: run_id; E008-to-E001 adapter field mapping failure before test execution",
+      "initial_local_adapter_status": "evaluator_infrastructure_invalid",
+      "returncode": 1,
+      "run_id": "E008-E002-C02-MEDIUM-R2",
+      "sanitation": {
+        "evaluator_copy": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C02-MEDIUM-R2/post-harness-clean-evaluator",
+        "prompt_sha256_verified": true,
+        "removed_evaluator_cache_paths": [],
+        "verified_cache_free_before_evaluation": true,
+        "workspace_generated_caches_removed_before_re_evaluation": []
+      },
+      "session_id": "superb-infinity",
+      "started_at_utc": "2026-09-26T15:07:59.711694+00:00",
+      "suite_results": {
+        "heldout": "fail",
+        "public": "fail",
+        "regression": "pass"
+      },
+      "task_success": false
+    },
+    {
+      "adjudicated_at_utc": "2026-09-26T15:08:05.307742+00:00",
+      "case_id": "E002-C02",
+      "corrected_evaluator_status": "valid",
+      "devin_session_rerun": false,
+      "effort": "medium",
+      "evaluator_output_sha256": "6bbfa8b7e28d3df3b2cb6c98937b213fc1a02c0abd1a22cbaa77db535b6c440e",
+      "evaluator_result_path": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C02-MEDIUM-R3/post-harness-evaluation/evaluation-result.json",
+      "initial_error": "KeyError: run_id; E008-to-E001 adapter field mapping failure before test execution",
+      "initial_local_adapter_status": "evaluator_infrastructure_invalid",
+      "returncode": 0,
+      "run_id": "E008-E002-C02-MEDIUM-R3",
+      "sanitation": {
+        "evaluator_copy": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C02-MEDIUM-R3/post-harness-clean-evaluator",
+        "prompt_sha256_verified": true,
+        "removed_evaluator_cache_paths": [],
+        "verified_cache_free_before_evaluation": true,
+        "workspace_generated_caches_removed_before_re_evaluation": []
+      },
+      "session_id": "ambitious-acrylic",
+      "started_at_utc": "2026-09-26T15:08:02.975797+00:00",
+      "suite_results": {
+        "heldout": "pass",
+        "public": "pass",
+        "regression": "pass"
+      },
+      "task_success": true
+    },
+    {
+      "adjudicated_at_utc": "2026-09-26T15:08:10.979890+00:00",
+      "case_id": "E002-C05",
+      "corrected_evaluator_status": "valid",
+      "devin_session_rerun": false,
+      "effort": "medium",
+      "evaluator_output_sha256": "28e832ecdc1ea772853e143da5b3902bec30f92e794211421cbe5eae4887ed24",
+      "evaluator_result_path": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MEDIUM-R1/post-harness-evaluation/evaluation-result.json",
+      "initial_error": "KeyError: run_id; E008-to-E001 adapter field mapping failure before test execution",
+      "initial_local_adapter_status": "evaluator_infrastructure_invalid",
+      "returncode": 1,
+      "run_id": "E008-E002-C05-MEDIUM-R1",
+      "sanitation": {
+        "evaluator_copy": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MEDIUM-R1/post-harness-clean-evaluator",
+        "prompt_sha256_verified": true,
+        "removed_evaluator_cache_paths": [],
+        "verified_cache_free_before_evaluation": true,
+        "workspace_generated_caches_removed_before_re_evaluation": []
+      },
+      "session_id": "invited-poison",
+      "started_at_utc": "2026-09-26T15:08:05.334234+00:00",
+      "suite_results": {
+        "heldout": "fail",
+        "public": "pass",
+        "regression": "pass"
+      },
+      "task_success": false
+    },
+    {
+      "adjudicated_at_utc": "2026-09-26T15:08:16.694992+00:00",
+      "case_id": "E002-C05",
+      "corrected_evaluator_status": "valid",
+      "devin_session_rerun": false,
+      "effort": "medium",
+      "evaluator_output_sha256": "255790f08661aad2d3c581361336f7addc20dce7f945ceea064f4bf7afcaf984",
+      "evaluator_result_path": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MEDIUM-R2/post-harness-evaluation/evaluation-result.json",
+      "initial_error": "KeyError: run_id; E008-to-E001 adapter field mapping failure before test execution",
+      "initial_local_adapter_status": "evaluator_infrastructure_invalid",
+      "returncode": 1,
+      "run_id": "E008-E002-C05-MEDIUM-R2",
+      "sanitation": {
+        "evaluator_copy": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MEDIUM-R2/post-harness-clean-evaluator",
+        "prompt_sha256_verified": true,
+        "removed_evaluator_cache_paths": [],
+        "verified_cache_free_before_evaluation": true,
+        "workspace_generated_caches_removed_before_re_evaluation": []
+      },
+      "session_id": "geode-scabiosa",
+      "started_at_utc": "2026-09-26T15:08:10.986975+00:00",
+      "suite_results": {
+        "heldout": "fail",
+        "public": "pass",
+        "regression": "pass"
+      },
+      "task_success": false
+    },
+    {
+      "adjudicated_at_utc": "2026-09-26T15:08:22.454039+00:00",
+      "case_id": "E002-C05",
+      "corrected_evaluator_status": "valid",
+      "devin_session_rerun": false,
+      "effort": "medium",
+      "evaluator_output_sha256": "0bef280462258b1a80f410719fd89f5a6bc6e356508248579e04eb7c3773c6b3",
+      "evaluator_result_path": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MEDIUM-R3/post-harness-evaluation/evaluation-result.json",
+      "initial_error": "KeyError: run_id; E008-to-E001 adapter field mapping failure before test execution",
+      "initial_local_adapter_status": "evaluator_infrastructure_invalid",
+      "returncode": 1,
+      "run_id": "E008-E002-C05-MEDIUM-R3",
+      "sanitation": {
+        "evaluator_copy": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MEDIUM-R3/post-harness-clean-evaluator",
+        "prompt_sha256_verified": true,
+        "removed_evaluator_cache_paths": [],
+        "verified_cache_free_before_evaluation": true,
+        "workspace_generated_caches_removed_before_re_evaluation": []
+      },
+      "session_id": "necessary-chalk",
+      "started_at_utc": "2026-09-26T15:08:16.701611+00:00",
+      "suite_results": {
+        "heldout": "fail",
+        "public": "pass",
+        "regression": "pass"
+      },
+      "task_success": false
+    },
+    {
+      "adjudicated_at_utc": "2026-09-26T15:08:28.214573+00:00",
+      "case_id": "E002-C05",
+      "corrected_evaluator_status": "valid",
+      "devin_session_rerun": false,
+      "effort": "max",
+      "evaluator_output_sha256": "76651e1067938b4fbebcb98ebec146e81dcc910f5dc30498fe2677db30d9da2b",
+      "evaluator_result_path": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MAX-R1/post-harness-evaluation/evaluation-result.json",
+      "initial_error": "KeyError: run_id; E008-to-E001 adapter field mapping failure before test execution",
+      "initial_local_adapter_status": "evaluator_infrastructure_invalid",
+      "returncode": 1,
+      "run_id": "E008-E002-C05-MAX-R1",
+      "sanitation": {
+        "evaluator_copy": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MAX-R1/post-harness-clean-evaluator",
+        "prompt_sha256_verified": true,
+        "removed_evaluator_cache_paths": [],
+        "verified_cache_free_before_evaluation": true,
+        "workspace_generated_caches_removed_before_re_evaluation": []
+      },
+      "session_id": "humorous-feather",
+      "started_at_utc": "2026-09-26T15:08:22.463274+00:00",
+      "suite_results": {
+        "heldout": "fail",
+        "public": "pass",
+        "regression": "pass"
+      },
+      "task_success": false
+    },
+    {
+      "adjudicated_at_utc": "2026-09-26T15:08:33.942157+00:00",
+      "case_id": "E002-C05",
+      "corrected_evaluator_status": "valid",
+      "devin_session_rerun": false,
+      "effort": "max",
+      "evaluator_output_sha256": "84b8db97d2ddf6e4362b8b65be93233cd35e42b58976bf1d3976eefb391160ca",
+      "evaluator_result_path": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MAX-R2/post-harness-evaluation/evaluation-result.json",
+      "initial_error": "KeyError: run_id; E008-to-E001 adapter field mapping failure before test execution",
+      "initial_local_adapter_status": "evaluator_infrastructure_invalid",
+      "returncode": 1,
+      "run_id": "E008-E002-C05-MAX-R2",
+      "sanitation": {
+        "evaluator_copy": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MAX-R2/post-harness-clean-evaluator",
+        "prompt_sha256_verified": true,
+        "removed_evaluator_cache_paths": [],
+        "verified_cache_free_before_evaluation": true,
+        "workspace_generated_caches_removed_before_re_evaluation": []
+      },
+      "session_id": "polarized-waitress",
+      "started_at_utc": "2026-09-26T15:08:28.222976+00:00",
+      "suite_results": {
+        "heldout": "fail",
+        "public": "pass",
+        "regression": "pass"
+      },
+      "task_success": false
+    },
+    {
+      "adjudicated_at_utc": "2026-09-26T15:08:39.501328+00:00",
+      "case_id": "E002-C05",
+      "corrected_evaluator_status": "valid",
+      "devin_session_rerun": false,
+      "effort": "max",
+      "evaluator_output_sha256": "1bd9f68455442398ff34887d084c9957705652c4b8589a2dc472ea13ef9eceb1",
+      "evaluator_result_path": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MAX-R3/post-harness-evaluation/evaluation-result.json",
+      "initial_error": "KeyError: run_id; E008-to-E001 adapter field mapping failure before test execution",
+      "initial_local_adapter_status": "evaluator_infrastructure_invalid",
+      "returncode": 1,
+      "run_id": "E008-E002-C05-MAX-R3",
+      "sanitation": {
+        "evaluator_copy": "<WORKDIR>/tests/devin/devin-agent-benchmark-e008-private/outputs/E008-E002-C05-MAX-R3/post-harness-clean-evaluator",
+        "prompt_sha256_verified": true,
+        "removed_evaluator_cache_paths": [],
+        "verified_cache_free_before_evaluation": true,
+        "workspace_generated_caches_removed_before_re_evaluation": []
+      },
+      "session_id": "wind-venom",
+      "started_at_utc": "2026-09-26T15:08:33.951107+00:00",
+      "suite_results": {
+        "heldout": "fail",
+        "public": "pass",
+        "regression": "pass"
+      },
+      "task_success": false
+    }
+  ],
+  "e002_failures": 7,
+  "e002_successes": 2,
+  "new_devin_sessions_for_adjudication": 0,
+  "planned_trials": 33,
+  "preserved_e002_sessions_adjudicated": 9
+}

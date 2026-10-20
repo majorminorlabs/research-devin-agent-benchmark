@@ -1,0 +1,26 @@
+{
+  "high": {
+    "corrected_E007_total_successes": 24,
+    "n": 10,
+    "recorded_E007_total_successes": 18,
+    "task_failures_after_clean_recheck": 2,
+    "task_successes_after_clean_recheck": 8,
+    "valid_evaluator_runs": 10
+  },
+  "max": {
+    "corrected_E007_total_successes": 24,
+    "n": 10,
+    "recorded_E007_total_successes": 18,
+    "task_failures_after_clean_recheck": 2,
+    "task_successes_after_clean_recheck": 8,
+    "valid_evaluator_runs": 10
+  },
+  "medium": {
+    "corrected_E007_total_successes": 22,
+    "n": 10,
+    "recorded_E007_total_successes": 16,
+    "task_failures_after_clean_recheck": 2,
+    "task_successes_after_clean_recheck": 8,
+    "valid_evaluator_runs": 10
+  }
+}

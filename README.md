@@ -233,3 +233,7 @@ hard primary tier; Experiment 003 is supplemental easier withheld evidence.
 See the [V3 report](reports/devin-swe2-reasoning-effort-v3.md),
 [CITATION.cff](CITATION.cff), and [third-party notices](THIRD_PARTY_NOTICES.md)
 for reuse boundaries.
+
+Tier 1 evidence added after the tagged release (2026-10-20): [source, protocols, historical audits and small run records](supplements/tier1-20261020/README.md).
+
+Plans, handoffs and drafts live in _private/ and are never published.

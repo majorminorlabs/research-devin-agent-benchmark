@@ -1,0 +1,20 @@
+E007 current controls verification
+Date: 2026-09-25
+
+Host Devin CLI: 3000.10.21 (611c1cba)
+Container Devin CLI: 3000.10.21
+
+Inspected with `devin --help`, `devin models list`, and `devin models list` inside the pinned E002 Docker image using the same read-only credentials mount and egress-proxy network used by benchmark sessions.
+
+CLI selection mechanism: `--model <MODEL>`.
+SWE-2 catalog excerpt:
+  swe-2-high    SWE-2 High    262K context, Free
+  swe-2-medium  SWE-2 Medium  262K context, Free
+  swe-2-max     SWE-2 Max     262K context, Free
+
+There is no separate reasoning-effort option in this CLI; each effort is an explicit SWE-2 model variant. The E007 session exports already captured verify selector honoring:
+  E007-E002-C02-MEDIUM: agent.model_name = SWE-2 Medium; generation_model = swe-2-medium
+  E007-E002-C02-HIGH:   agent.model_name = SWE-2 High; generation_model = swe-2-high
+  E007-E002-C02-MAX:    agent.model_name = SWE-2 Max; generation_model = swe-2-max
+
+The `egress-proxy` service was initially stopped. Two attempts failed before a task session began (the first reported unknown model with an empty catalog; the second could not fetch the catalog). The exact preserved `e002-egress-proxy:1` image was restored on the documented dual-network topology before any accepted E007 run. The model catalog was then successfully fetched from inside the pinned benchmark container.

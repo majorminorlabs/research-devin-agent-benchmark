@@ -1,0 +1,1326 @@
+{
+  "attempted_run_slots": 33,
+  "conditions": [
+    {
+      "case_id": "E002-C02",
+      "difficulty": "moderate",
+      "e007_clean_rechecked_outcome": false,
+      "e007_recorded_historical_outcome": false,
+      "e008_trials": [
+        {
+          "failure_classification": "evaluator_infrastructure_invalid",
+          "input_tokens": 783418,
+          "outcome": true,
+          "output_tokens": 13585,
+          "repetition": 1,
+          "run_id": "E008-E002-C02-MEDIUM-R1",
+          "session_id": "band-barracuda",
+          "steps": 41,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 797003,
+          "wall_time_seconds": 306.5656478329911
+        },
+        {
+          "failure_classification": "evaluator_infrastructure_invalid",
+          "input_tokens": 944495,
+          "outcome": false,
+          "output_tokens": 12700,
+          "repetition": 2,
+          "run_id": "E008-E002-C02-MEDIUM-R2",
+          "session_id": "superb-infinity",
+          "steps": 50,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "fail",
+            "regression": "pass"
+          },
+          "total_tokens": 957195,
+          "wall_time_seconds": 281.3188263750053
+        },
+        {
+          "failure_classification": "evaluator_infrastructure_invalid",
+          "input_tokens": 758983,
+          "outcome": true,
+          "output_tokens": 8762,
+          "repetition": 3,
+          "run_id": "E008-E002-C02-MEDIUM-R3",
+          "session_id": "ambitious-acrylic",
+          "steps": 39,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 767745,
+          "wall_time_seconds": 229.54400574998
+        }
+      ],
+      "effort": "medium",
+      "five_outcome_sequence": [
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "five_outcome_sequence_text": "PASS FAIL PASS FAIL PASS",
+      "new_trial_modal_share": 0.6666666666666666,
+      "new_trial_solves": 2,
+      "new_trial_stability": "mixed",
+      "original_outcome": true,
+      "recurring_failed_suites": {
+        "heldout": 1,
+        "public": 1
+      },
+      "repeat_metrics": {
+        "steps": {
+          "max": 50.0,
+          "median": 41.0,
+          "min": 39.0,
+          "n": 3,
+          "range": 11.0,
+          "sd": 5.8594652770823155
+        },
+        "total_tokens": {
+          "max": 957195.0,
+          "median": 797003.0,
+          "min": 767745.0,
+          "n": 3,
+          "range": 189450.0,
+          "sd": 101987.58905540092
+        },
+        "wall_time_seconds": {
+          "max": 306.5656478329911,
+          "median": 281.3188263750053,
+          "min": 229.54400574998,
+          "n": 3,
+          "range": 77.0216420830111,
+          "sd": 39.26484303981622
+        }
+      },
+      "solve_frequency": 0.6,
+      "solves_out_of_five": 3
+    },
+    {
+      "case_id": "E002-C05",
+      "difficulty": "moderate",
+      "e007_clean_rechecked_outcome": false,
+      "e007_recorded_historical_outcome": false,
+      "e008_trials": [
+        {
+          "failure_classification": "evaluator_infrastructure_invalid",
+          "input_tokens": 218116,
+          "outcome": false,
+          "output_tokens": 2939,
+          "repetition": 1,
+          "run_id": "E008-E002-C05-MEDIUM-R1",
+          "session_id": "invited-poison",
+          "steps": 22,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 221055,
+          "wall_time_seconds": 108.40702004102059
+        },
+        {
+          "failure_classification": "evaluator_infrastructure_invalid",
+          "input_tokens": 239816,
+          "outcome": false,
+          "output_tokens": 2818,
+          "repetition": 2,
+          "run_id": "E008-E002-C05-MEDIUM-R2",
+          "session_id": "geode-scabiosa",
+          "steps": 21,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 242634,
+          "wall_time_seconds": 107.01896887499606
+        },
+        {
+          "failure_classification": "evaluator_infrastructure_invalid",
+          "input_tokens": 457252,
+          "outcome": false,
+          "output_tokens": 4703,
+          "repetition": 3,
+          "run_id": "E008-E002-C05-MEDIUM-R3",
+          "session_id": "necessary-chalk",
+          "steps": 32,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 461955,
+          "wall_time_seconds": 132.60307491599815
+        }
+      ],
+      "effort": "medium",
+      "five_outcome_sequence": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "five_outcome_sequence_text": "PASS FAIL FAIL FAIL FAIL",
+      "new_trial_modal_share": 1.0,
+      "new_trial_solves": 0,
+      "new_trial_stability": "unanimous_fail",
+      "original_outcome": true,
+      "recurring_failed_suites": {
+        "heldout": 3
+      },
+      "repeat_metrics": {
+        "steps": {
+          "max": 32.0,
+          "median": 22.0,
+          "min": 21.0,
+          "n": 3,
+          "range": 11.0,
+          "sd": 6.082762530298219
+        },
+        "total_tokens": {
+          "max": 461955.0,
+          "median": 242634.0,
+          "min": 221055.0,
+          "n": 3,
+          "range": 240900.0,
+          "sd": 133291.7628625265
+        },
+        "wall_time_seconds": {
+          "max": 132.60307491599815,
+          "median": 108.40702004102059,
+          "min": 107.01896887499606,
+          "n": 3,
+          "range": 25.584106041002087,
+          "sd": 14.387044168682154
+        }
+      },
+      "solve_frequency": 0.2,
+      "solves_out_of_five": 1
+    },
+    {
+      "case_id": "E002-C05",
+      "difficulty": "moderate",
+      "e007_clean_rechecked_outcome": false,
+      "e007_recorded_historical_outcome": false,
+      "e008_trials": [
+        {
+          "failure_classification": "evaluator_infrastructure_invalid",
+          "input_tokens": 1289409,
+          "outcome": false,
+          "output_tokens": 11712,
+          "repetition": 1,
+          "run_id": "E008-E002-C05-MAX-R1",
+          "session_id": "humorous-feather",
+          "steps": 48,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 1301121,
+          "wall_time_seconds": 259.0686822499847
+        },
+        {
+          "failure_classification": "evaluator_infrastructure_invalid",
+          "input_tokens": 951134,
+          "outcome": false,
+          "output_tokens": 10391,
+          "repetition": 2,
+          "run_id": "E008-E002-C05-MAX-R2",
+          "session_id": "polarized-waitress",
+          "steps": 40,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 961525,
+          "wall_time_seconds": 226.5544533749926
+        },
+        {
+          "failure_classification": "evaluator_infrastructure_invalid",
+          "input_tokens": 942907,
+          "outcome": false,
+          "output_tokens": 10383,
+          "repetition": 3,
+          "run_id": "E008-E002-C05-MAX-R3",
+          "session_id": "wind-venom",
+          "steps": 38,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 953290,
+          "wall_time_seconds": 253.15373570896918
+        }
+      ],
+      "effort": "max",
+      "five_outcome_sequence": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "five_outcome_sequence_text": "PASS FAIL FAIL FAIL FAIL",
+      "new_trial_modal_share": 1.0,
+      "new_trial_solves": 0,
+      "new_trial_stability": "unanimous_fail",
+      "original_outcome": true,
+      "recurring_failed_suites": {
+        "heldout": 3
+      },
+      "repeat_metrics": {
+        "steps": {
+          "max": 48.0,
+          "median": 40.0,
+          "min": 38.0,
+          "n": 3,
+          "range": 10.0,
+          "sd": 5.291502622129181
+        },
+        "total_tokens": {
+          "max": 1301121.0,
+          "median": 961525.0,
+          "min": 953290.0,
+          "n": 3,
+          "range": 347831.0,
+          "sd": 198485.79420284298
+        },
+        "wall_time_seconds": {
+          "max": 259.0686822499847,
+          "median": 253.15373570896918,
+          "min": 226.5544533749926,
+          "n": 3,
+          "range": 32.514228874992114,
+          "sd": 17.318985211808464
+        }
+      },
+      "solve_frequency": 0.2,
+      "solves_out_of_five": 1
+    },
+    {
+      "case_id": "E004-N03",
+      "difficulty": "moderate",
+      "e007_clean_rechecked_outcome": false,
+      "e007_recorded_historical_outcome": false,
+      "e008_trials": [
+        {
+          "failure_classification": "agent_failure",
+          "input_tokens": 123736,
+          "outcome": false,
+          "output_tokens": 1090,
+          "repetition": 1,
+          "run_id": "E008-E004-N03-MEDIUM-R1",
+          "session_id": "admitted-promotion",
+          "steps": 16,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 124826,
+          "wall_time_seconds": 95.57258708402514
+        },
+        {
+          "failure_classification": "agent_failure",
+          "input_tokens": 112789,
+          "outcome": false,
+          "output_tokens": 1016,
+          "repetition": 2,
+          "run_id": "E008-E004-N03-MEDIUM-R2",
+          "session_id": "thread-dragonfly",
+          "steps": 15,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 113805,
+          "wall_time_seconds": 81.86502341600135
+        },
+        {
+          "failure_classification": "agent_failure",
+          "input_tokens": 130204,
+          "outcome": false,
+          "output_tokens": 1391,
+          "repetition": 3,
+          "run_id": "E008-E004-N03-MEDIUM-R3",
+          "session_id": "jungle-dewberry",
+          "steps": 16,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 131595,
+          "wall_time_seconds": 90.73468662501546
+        }
+      ],
+      "effort": "medium",
+      "five_outcome_sequence": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "five_outcome_sequence_text": "PASS FAIL FAIL FAIL FAIL",
+      "new_trial_modal_share": 1.0,
+      "new_trial_solves": 0,
+      "new_trial_stability": "unanimous_fail",
+      "original_outcome": true,
+      "recurring_failed_suites": {
+        "heldout": 3
+      },
+      "repeat_metrics": {
+        "steps": {
+          "max": 16.0,
+          "median": 16.0,
+          "min": 15.0,
+          "n": 3,
+          "range": 1.0,
+          "sd": 0.5773502691896257
+        },
+        "total_tokens": {
+          "max": 131595.0,
+          "median": 124826.0,
+          "min": 113805.0,
+          "n": 3,
+          "range": 17790.0,
+          "sd": 8979.290079584986
+        },
+        "wall_time_seconds": {
+          "max": 95.57258708402514,
+          "median": 90.73468662501546,
+          "min": 81.86502341600135,
+          "n": 3,
+          "range": 13.707563668023795,
+          "sd": 6.951900315807548
+        }
+      },
+      "solve_frequency": 0.2,
+      "solves_out_of_five": 1
+    },
+    {
+      "case_id": "E004-N03",
+      "difficulty": "moderate",
+      "e007_clean_rechecked_outcome": true,
+      "e007_recorded_historical_outcome": true,
+      "e008_trials": [
+        {
+          "failure_classification": "success",
+          "input_tokens": 156921,
+          "outcome": true,
+          "output_tokens": 3677,
+          "repetition": 1,
+          "run_id": "E008-E004-N03-MAX-R1",
+          "session_id": "deep-clematis",
+          "steps": 17,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 160598,
+          "wall_time_seconds": 124.98371345800115
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 176232,
+          "outcome": true,
+          "output_tokens": 3653,
+          "repetition": 2,
+          "run_id": "E008-E004-N03-MAX-R2",
+          "session_id": "beautiful-capricorn",
+          "steps": 18,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 179885,
+          "wall_time_seconds": 112.05522658297559
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 180017,
+          "outcome": true,
+          "output_tokens": 5059,
+          "repetition": 3,
+          "run_id": "E008-E004-N03-MAX-R3",
+          "session_id": "berry-wolf",
+          "steps": 18,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 185076,
+          "wall_time_seconds": 151.4442675000173
+        }
+      ],
+      "effort": "max",
+      "five_outcome_sequence": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "five_outcome_sequence_text": "FAIL PASS PASS PASS PASS",
+      "new_trial_modal_share": 1.0,
+      "new_trial_solves": 3,
+      "new_trial_stability": "unanimous_pass",
+      "original_outcome": false,
+      "recurring_failed_suites": {},
+      "repeat_metrics": {
+        "steps": {
+          "max": 18.0,
+          "median": 18.0,
+          "min": 17.0,
+          "n": 3,
+          "range": 1.0,
+          "sd": 0.5773502691896257
+        },
+        "total_tokens": {
+          "max": 185076.0,
+          "median": 179885.0,
+          "min": 160598.0,
+          "n": 3,
+          "range": 24478.0,
+          "sd": 12897.72159465901
+        },
+        "wall_time_seconds": {
+          "max": 151.4442675000173,
+          "median": 124.98371345800115,
+          "min": 112.05522658297559,
+          "n": 3,
+          "range": 39.38904091704171,
+          "sd": 20.07819396531368
+        }
+      },
+      "solve_frequency": 0.8,
+      "solves_out_of_five": 4
+    },
+    {
+      "case_id": "E005-K04",
+      "difficulty": "hard",
+      "e007_clean_rechecked_outcome": true,
+      "e007_recorded_historical_outcome": true,
+      "e008_trials": [
+        {
+          "failure_classification": "success",
+          "input_tokens": 1128982,
+          "outcome": true,
+          "output_tokens": 12551,
+          "repetition": 1,
+          "run_id": "E008-E005-K04-MEDIUM-R1",
+          "session_id": "helix-fowl",
+          "steps": 38,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 1141533,
+          "wall_time_seconds": 319.20170508301817
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 1193151,
+          "outcome": true,
+          "output_tokens": 13167,
+          "repetition": 2,
+          "run_id": "E008-E005-K04-MEDIUM-R2",
+          "session_id": "jolly-brie",
+          "steps": 48,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 1206318,
+          "wall_time_seconds": 384.10153962497134
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 1192173,
+          "outcome": true,
+          "output_tokens": 13367,
+          "repetition": 3,
+          "run_id": "E008-E005-K04-MEDIUM-R3",
+          "session_id": "sustaining-thunder",
+          "steps": 43,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 1205540,
+          "wall_time_seconds": 291.55895620799856
+        }
+      ],
+      "effort": "medium",
+      "five_outcome_sequence": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "five_outcome_sequence_text": "FAIL PASS PASS PASS PASS",
+      "new_trial_modal_share": 1.0,
+      "new_trial_solves": 3,
+      "new_trial_stability": "unanimous_pass",
+      "original_outcome": false,
+      "recurring_failed_suites": {},
+      "repeat_metrics": {
+        "steps": {
+          "max": 48.0,
+          "median": 43.0,
+          "min": 38.0,
+          "n": 3,
+          "range": 10.0,
+          "sd": 5.0
+        },
+        "total_tokens": {
+          "max": 1206318.0,
+          "median": 1205540.0,
+          "min": 1141533.0,
+          "n": 3,
+          "range": 64785.0,
+          "sd": 37181.082909637444
+        },
+        "wall_time_seconds": {
+          "max": 384.10153962497134,
+          "median": 319.20170508301817,
+          "min": 291.55895620799856,
+          "n": 3,
+          "range": 92.54258341697278,
+          "sd": 47.504806483884096
+        }
+      },
+      "solve_frequency": 0.8,
+      "solves_out_of_five": 4
+    },
+    {
+      "case_id": "E005-K02",
+      "difficulty": "hard",
+      "e007_clean_rechecked_outcome": true,
+      "e007_recorded_historical_outcome": true,
+      "e008_trials": [
+        {
+          "failure_classification": "success",
+          "input_tokens": 3728956,
+          "outcome": true,
+          "output_tokens": 23421,
+          "repetition": 1,
+          "run_id": "E008-E005-K02-MAX-R1",
+          "session_id": "sable-patio",
+          "steps": 57,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 3752377,
+          "wall_time_seconds": 468.69796154199867
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 3424000,
+          "outcome": true,
+          "output_tokens": 21323,
+          "repetition": 2,
+          "run_id": "E008-E005-K02-MAX-R2",
+          "session_id": "copy-pullover",
+          "steps": 64,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 3445323,
+          "wall_time_seconds": 519.7144359169761
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 5528495,
+          "outcome": true,
+          "output_tokens": 26761,
+          "repetition": 3,
+          "run_id": "E008-E005-K02-MAX-R3",
+          "session_id": "neon-legume",
+          "steps": 88,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 5555256,
+          "wall_time_seconds": 570.090925416036
+        }
+      ],
+      "effort": "max",
+      "five_outcome_sequence": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      "five_outcome_sequence_text": "FAIL PASS PASS PASS PASS",
+      "new_trial_modal_share": 1.0,
+      "new_trial_solves": 3,
+      "new_trial_stability": "unanimous_pass",
+      "original_outcome": false,
+      "recurring_failed_suites": {},
+      "repeat_metrics": {
+        "steps": {
+          "max": 88.0,
+          "median": 64.0,
+          "min": 57.0,
+          "n": 3,
+          "range": 31.0,
+          "sd": 16.258331197676267
+        },
+        "total_tokens": {
+          "max": 5555256.0,
+          "median": 3752377.0,
+          "min": 3445323.0,
+          "n": 3,
+          "range": 2109933.0,
+          "sd": 1139917.549068499
+        },
+        "wall_time_seconds": {
+          "max": 570.090925416036,
+          "median": 519.7144359169761,
+          "min": 468.69796154199867,
+          "n": 3,
+          "range": 101.39296387403738,
+          "sd": 50.69681856399452
+        }
+      },
+      "solve_frequency": 0.8,
+      "solves_out_of_five": 4
+    },
+    {
+      "case_id": "E005-K01",
+      "difficulty": "hard",
+      "e007_clean_rechecked_outcome": false,
+      "e007_recorded_historical_outcome": false,
+      "e008_trials": [
+        {
+          "failure_classification": "agent_failure",
+          "input_tokens": 1467267,
+          "outcome": false,
+          "output_tokens": 12918,
+          "repetition": 1,
+          "run_id": "E008-E005-K01-MEDIUM-R1",
+          "session_id": "spotless-physician",
+          "steps": 50,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 1480185,
+          "wall_time_seconds": 243.73201966600027
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 1503200,
+          "outcome": true,
+          "output_tokens": 12515,
+          "repetition": 2,
+          "run_id": "E008-E005-K01-MEDIUM-R2",
+          "session_id": "discreet-territory",
+          "steps": 39,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 1515715,
+          "wall_time_seconds": 259.053480750008
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 965542,
+          "outcome": true,
+          "output_tokens": 11336,
+          "repetition": 3,
+          "run_id": "E008-E005-K01-MEDIUM-R3",
+          "session_id": "elderly-myth",
+          "steps": 39,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 976878,
+          "wall_time_seconds": 229.12304879096337
+        }
+      ],
+      "effort": "medium",
+      "five_outcome_sequence": [
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "five_outcome_sequence_text": "PASS FAIL FAIL PASS PASS",
+      "new_trial_modal_share": 0.6666666666666666,
+      "new_trial_solves": 2,
+      "new_trial_stability": "mixed",
+      "original_outcome": true,
+      "recurring_failed_suites": {
+        "heldout": 1
+      },
+      "repeat_metrics": {
+        "steps": {
+          "max": 50.0,
+          "median": 39.0,
+          "min": 39.0,
+          "n": 3,
+          "range": 11.0,
+          "sd": 6.3508529610858835
+        },
+        "total_tokens": {
+          "max": 1515715.0,
+          "median": 1480185.0,
+          "min": 976878.0,
+          "n": 3,
+          "range": 538837.0,
+          "sd": 301365.12453555956
+        },
+        "wall_time_seconds": {
+          "max": 259.053480750008,
+          "median": 243.73201966600027,
+          "min": 229.12304879096337,
+          "n": 3,
+          "range": 29.930431959044654,
+          "sd": 14.966629307849303
+        }
+      },
+      "solve_frequency": 0.6,
+      "solves_out_of_five": 3
+    },
+    {
+      "case_id": "E005-H03",
+      "difficulty": "hard",
+      "e007_clean_rechecked_outcome": true,
+      "e007_recorded_historical_outcome": true,
+      "e008_trials": [
+        {
+          "failure_classification": "agent_failure",
+          "input_tokens": 255337,
+          "outcome": false,
+          "output_tokens": 18005,
+          "repetition": 1,
+          "run_id": "E008-E005-H03-MAX-R1",
+          "session_id": "luminous-odometer",
+          "steps": 18,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "fail"
+          },
+          "total_tokens": 273342,
+          "wall_time_seconds": 399.65170095901703
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 188882,
+          "outcome": true,
+          "output_tokens": 10040,
+          "repetition": 2,
+          "run_id": "E008-E005-H03-MAX-R2",
+          "session_id": "stump-flier",
+          "steps": 17,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 198922,
+          "wall_time_seconds": 223.13761837495258
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 106926,
+          "outcome": true,
+          "output_tokens": 3665,
+          "repetition": 3,
+          "run_id": "E008-E005-H03-MAX-R3",
+          "session_id": "knowing-raincoat",
+          "steps": 14,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 110591,
+          "wall_time_seconds": 124.91139137500431
+        }
+      ],
+      "effort": "max",
+      "five_outcome_sequence": [
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      "five_outcome_sequence_text": "FAIL PASS FAIL PASS PASS",
+      "new_trial_modal_share": 0.6666666666666666,
+      "new_trial_solves": 2,
+      "new_trial_stability": "mixed",
+      "original_outcome": false,
+      "recurring_failed_suites": {
+        "regression": 1
+      },
+      "repeat_metrics": {
+        "steps": {
+          "max": 18.0,
+          "median": 17.0,
+          "min": 14.0,
+          "n": 3,
+          "range": 4.0,
+          "sd": 2.0816659994661326
+        },
+        "total_tokens": {
+          "max": 273342.0,
+          "median": 198922.0,
+          "min": 110591.0,
+          "n": 3,
+          "range": 162751.0,
+          "sd": 81474.525632249
+        },
+        "wall_time_seconds": {
+          "max": 399.65170095901703,
+          "median": 223.13761837495258,
+          "min": 124.91139137500431,
+          "n": 3,
+          "range": 274.7403095840127,
+          "sd": 139.21676786667285
+        }
+      },
+      "solve_frequency": 0.6,
+      "solves_out_of_five": 3
+    },
+    {
+      "case_id": "E006-H03",
+      "difficulty": "very-hard",
+      "e007_clean_rechecked_outcome": true,
+      "e007_recorded_historical_outcome": false,
+      "e008_trials": [
+        {
+          "failure_classification": "success",
+          "input_tokens": 98849,
+          "outcome": true,
+          "output_tokens": 2069,
+          "repetition": 1,
+          "run_id": "E008-E006-H03-MEDIUM-R1",
+          "session_id": "rainbow-scion",
+          "steps": 14,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 100918,
+          "wall_time_seconds": 97.70166483300272
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 107003,
+          "outcome": true,
+          "output_tokens": 3440,
+          "repetition": 2,
+          "run_id": "E008-E006-H03-MEDIUM-R2",
+          "session_id": "childlike-speak",
+          "steps": 14,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 110443,
+          "wall_time_seconds": 143.17830312502338
+        },
+        {
+          "failure_classification": "agent_failure",
+          "input_tokens": 82378,
+          "outcome": false,
+          "output_tokens": 1250,
+          "repetition": 3,
+          "run_id": "E008-E006-H03-MEDIUM-R3",
+          "session_id": "indigo-caravan",
+          "steps": 13,
+          "suite_results": {
+            "heldout": "fail",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 83628,
+          "wall_time_seconds": 95.00721649994375
+        }
+      ],
+      "effort": "medium",
+      "five_outcome_sequence": [
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      "five_outcome_sequence_text": "FAIL PASS PASS PASS FAIL",
+      "new_trial_modal_share": 0.6666666666666666,
+      "new_trial_solves": 2,
+      "new_trial_stability": "mixed",
+      "original_outcome": false,
+      "recurring_failed_suites": {
+        "heldout": 1
+      },
+      "repeat_metrics": {
+        "steps": {
+          "max": 14.0,
+          "median": 14.0,
+          "min": 13.0,
+          "n": 3,
+          "range": 1.0,
+          "sd": 0.5773502691896257
+        },
+        "total_tokens": {
+          "max": 110443.0,
+          "median": 100918.0,
+          "min": 83628.0,
+          "n": 3,
+          "range": 26815.0,
+          "sd": 13593.58886877683
+        },
+        "wall_time_seconds": {
+          "max": 143.17830312502338,
+          "median": 97.70166483300272,
+          "min": 95.00721649994375,
+          "n": 3,
+          "range": 48.171086625079624,
+          "sd": 27.0673181432385
+        }
+      },
+      "solve_frequency": 0.6,
+      "solves_out_of_five": 3
+    },
+    {
+      "case_id": "E006-H01",
+      "difficulty": "very-hard",
+      "e007_clean_rechecked_outcome": false,
+      "e007_recorded_historical_outcome": false,
+      "e008_trials": [
+        {
+          "failure_classification": "agent_failure",
+          "input_tokens": 115754,
+          "outcome": false,
+          "output_tokens": 6512,
+          "repetition": 1,
+          "run_id": "E008-E006-H01-MAX-R1",
+          "session_id": "distinct-humor",
+          "steps": 14,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "fail"
+          },
+          "total_tokens": 122266,
+          "wall_time_seconds": 156.3136419589864
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 253826,
+          "outcome": true,
+          "output_tokens": 18395,
+          "repetition": 2,
+          "run_id": "E008-E006-H01-MAX-R2",
+          "session_id": "fixed-bowl",
+          "steps": 18,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 272221,
+          "wall_time_seconds": 431.42012808297295
+        },
+        {
+          "failure_classification": "success",
+          "input_tokens": 132131,
+          "outcome": true,
+          "output_tokens": 12057,
+          "repetition": 3,
+          "run_id": "E008-E006-H01-MAX-R3",
+          "session_id": "pool-bonnet",
+          "steps": 14,
+          "suite_results": {
+            "heldout": "pass",
+            "public": "pass",
+            "regression": "pass"
+          },
+          "total_tokens": 144188,
+          "wall_time_seconds": 282.06225970899686
+        }
+      ],
+      "effort": "max",
+      "five_outcome_sequence": [
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "five_outcome_sequence_text": "PASS FAIL FAIL PASS PASS",
+      "new_trial_modal_share": 0.6666666666666666,
+      "new_trial_solves": 2,
+      "new_trial_stability": "mixed",
+      "original_outcome": true,
+      "recurring_failed_suites": {
+        "regression": 1
+      },
+      "repeat_metrics": {
+        "steps": {
+          "max": 18.0,
+          "median": 14.0,
+          "min": 14.0,
+          "n": 3,
+          "range": 4.0,
+          "sd": 2.309401076758503
+        },
+        "total_tokens": {
+          "max": 272221.0,
+          "median": 144188.0,
+          "min": 122266.0,
+          "n": 3,
+          "range": 149955.0,
+          "sd": 80993.33840713897
+        },
+        "wall_time_seconds": {
+          "max": 431.42012808297295,
+          "median": 282.06225970899686,
+          "min": 156.3136419589864,
+          "n": 3,
+          "range": 275.10648612398654,
+          "sd": 137.7219822799683
+        }
+      },
+      "solve_frequency": 0.6,
+      "solves_out_of_five": 3
+    }
+  ],
+  "difficulty_summary": {
+    "hard": {
+      "mixed_conditions": 2,
+      "new_trial_count": 12,
+      "new_trial_successes": 10,
+      "selected_conditions": 4,
+      "unanimous_conditions": 2
+    },
+    "moderate": {
+      "mixed_conditions": 1,
+      "new_trial_count": 15,
+      "new_trial_successes": 5,
+      "selected_conditions": 5,
+      "unanimous_conditions": 4
+    },
+    "very-hard": {
+      "mixed_conditions": 2,
+      "new_trial_count": 6,
+      "new_trial_successes": 4,
+      "selected_conditions": 2,
+      "unanimous_conditions": 0
+    }
+  },
+  "effort_summary": {
+    "max": {
+      "five_observation_successes": 15,
+      "five_observation_total": 25,
+      "mixed_conditions": 2,
+      "new_trial_count": 15,
+      "new_trial_failures": 5,
+      "new_trial_successes": 10,
+      "selected_conditions": 5,
+      "unanimous_conditions": 3
+    },
+    "medium": {
+      "five_observation_successes": 15,
+      "five_observation_total": 30,
+      "mixed_conditions": 3,
+      "new_trial_count": 18,
+      "new_trial_failures": 9,
+      "new_trial_successes": 9,
+      "selected_conditions": 6,
+      "unanimous_conditions": 3
+    }
+  },
+  "experiment_id": "E008",
+  "five_observation_success_rate_descriptive": 0.5454545454545454,
+  "five_observation_successes": 30,
+  "five_observation_total": 55,
+  "initial_evaluator_adapter_errors": 9,
+  "interpretive_limits": [
+    "Selection was conditional on historical discordance; this is not a random sample.",
+    "Only 3 new trials per selected condition; stability labels are descriptive.",
+    "Medium/Max condition sets are unequal and not generally paired.",
+    "No repeated High condition exists.",
+    "Temporal backend change cannot be separated from stochastic run variance.",
+    "No direct billing evidence; actual cost is unknown."
+  ],
+  "new_trial_success_rate_descriptive": 0.5757575757575758,
+  "new_trial_successes": 19,
+  "new_trial_total": 33,
+  "no_replacement_runs": true,
+  "planned_run_slots": 33,
+  "same_case_both_efforts": {
+    "E002-C05": {
+      "max": {
+        "five_observation_successes": 1,
+        "new_trial_successes": 0,
+        "steps": {
+          "max": 48.0,
+          "median": 40.0,
+          "min": 38.0,
+          "n": 3,
+          "range": 10.0,
+          "sd": 5.291502622129181
+        },
+        "total_tokens": {
+          "max": 1301121.0,
+          "median": 961525.0,
+          "min": 953290.0,
+          "n": 3,
+          "range": 347831.0,
+          "sd": 198485.79420284298
+        },
+        "trial_count": 3,
+        "wall_time_seconds": {
+          "max": 259.0686822499847,
+          "median": 253.15373570896918,
+          "min": 226.5544533749926,
+          "n": 3,
+          "range": 32.514228874992114,
+          "sd": 17.318985211808464
+        }
+      },
+      "medium": {
+        "five_observation_successes": 1,
+        "new_trial_successes": 0,
+        "steps": {
+          "max": 32.0,
+          "median": 22.0,
+          "min": 21.0,
+          "n": 3,
+          "range": 11.0,
+          "sd": 6.082762530298219
+        },
+        "total_tokens": {
+          "max": 461955.0,
+          "median": 242634.0,
+          "min": 221055.0,
+          "n": 3,
+          "range": 240900.0,
+          "sd": 133291.7628625265
+        },
+        "trial_count": 3,
+        "wall_time_seconds": {
+          "max": 132.60307491599815,
+          "median": 108.40702004102059,
+          "min": 107.01896887499606,
+          "n": 3,
+          "range": 25.584106041002087,
+          "sd": 14.387044168682154
+        }
+      }
+    },
+    "E004-N03": {
+      "max": {
+        "five_observation_successes": 4,
+        "new_trial_successes": 3,
+        "steps": {
+          "max": 18.0,
+          "median": 18.0,
+          "min": 17.0,
+          "n": 3,
+          "range": 1.0,
+          "sd": 0.5773502691896257
+        },
+        "total_tokens": {
+          "max": 185076.0,
+          "median": 179885.0,
+          "min": 160598.0,
+          "n": 3,
+          "range": 24478.0,
+          "sd": 12897.72159465901
+        },
+        "trial_count": 3,
+        "wall_time_seconds": {
+          "max": 151.4442675000173,
+          "median": 124.98371345800115,
+          "min": 112.05522658297559,
+          "n": 3,
+          "range": 39.38904091704171,
+          "sd": 20.07819396531368
+        }
+      },
+      "medium": {
+        "five_observation_successes": 1,
+        "new_trial_successes": 0,
+        "steps": {
+          "max": 16.0,
+          "median": 16.0,
+          "min": 15.0,
+          "n": 3,
+          "range": 1.0,
+          "sd": 0.5773502691896257
+        },
+        "total_tokens": {
+          "max": 131595.0,
+          "median": 124826.0,
+          "min": 113805.0,
+          "n": 3,
+          "range": 17790.0,
+          "sd": 8979.290079584986
+        },
+        "trial_count": 3,
+        "wall_time_seconds": {
+          "max": 95.57258708402514,
+          "median": 90.73468662501546,
+          "min": 81.86502341600135,
+          "n": 3,
+          "range": 13.707563668023795,
+          "sd": 6.951900315807548
+        }
+      }
+    }
+  },
+  "suite_failure_counts_across_new_trials": {
+    "heldout": 12,
+    "public": 1,
+    "regression": 2
+  },
+  "unapproved_conditions_added": 0,
+  "unique_sessions": 33,
+  "valid_final_evaluations": 33
+}

@@ -1,0 +1,1584 @@
+{
+  "experiment_id": "E007",
+  "status": "frozen-ready-for-launch",
+  "schema_version": 1,
+  "frozen_at_utc": "2026-09-25T15:38:38.958410+00:00",
+  "case_order_basis": "tier-concatenated, each parent frozen run order first-appearance order (E002 then E004 moderate; E005 hard; E006 very-hard)",
+  "canonical_case_count": 30,
+  "tier_counts": {
+    "moderate": 10,
+    "hard": 10,
+    "very-hard": 10
+  },
+  "case_sources": [
+    "experiment-002",
+    "experiment-004",
+    "experiment-005",
+    "experiment-006"
+  ],
+  "excluded_supplemental": [
+    "experiment-003"
+  ],
+  "conditions": {
+    "medium": "swe-2-medium",
+    "high": "swe-2-high",
+    "max": "swe-2-max"
+  },
+  "cases": [
+    {
+      "case_id": "E002-C02",
+      "source_case_id": "fastapi-3",
+      "difficulty": "moderate",
+      "source_repository": "https://github.com/tiangolo/fastapi",
+      "source_commit": "869c7389e22dc9ad659940fa271da76c4f3ba3b1",
+      "fixed_commit": "aea04ee32ee1942e6e1a904527bb8da6ba76abd9",
+      "source_dataset_commit": "316b95e2353ecda832bad9b42f86fa7c2fcec8ac",
+      "prompt": "prompts/experiment-001/fastapi-3.md",
+      "heldout_tests": "evaluation/experiment-001/fastapi-3/test_heldout.py",
+      "regression_evaluator": "evaluation/experiment-001/fastapi-3/metadata.json",
+      "evaluator_configuration": "experiment-002 frozen evaluator contract",
+      "source_manifest": "manifests/experiment-001.json",
+      "original_experiment": "experiment-002",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E002-C02-M",
+        "E002-C02-X"
+      ]
+    },
+    {
+      "case_id": "E002-C04",
+      "source_case_id": "tqdm-5",
+      "difficulty": "moderate",
+      "source_repository": "https://github.com/tqdm/tqdm",
+      "source_commit": "19b08ab34fdbfa0275bc5cb2430436c724c7e759",
+      "fixed_commit": "4f340697af69b71850aad496387c9c5aa1904136",
+      "source_dataset_commit": "316b95e2353ecda832bad9b42f86fa7c2fcec8ac",
+      "prompt": "prompts/experiment-001/tqdm-5.md",
+      "heldout_tests": "evaluation/experiment-001/tqdm-5/test_heldout.py",
+      "regression_evaluator": "evaluation/experiment-001/tqdm-5/metadata.json",
+      "evaluator_configuration": "experiment-002 frozen evaluator contract",
+      "source_manifest": "manifests/experiment-001.json",
+      "original_experiment": "experiment-002",
+      "original_medium_success": true,
+      "original_max_success": false,
+      "original_run_ids": [
+        "E002-C04-M",
+        "E002-C04-X"
+      ]
+    },
+    {
+      "case_id": "E002-C01",
+      "source_case_id": "black-16",
+      "difficulty": "moderate",
+      "source_repository": "https://github.com/psf/black",
+      "source_commit": "fb34c9e19589d05f92084a28940837151251ebd6",
+      "fixed_commit": "42a3fe53319a8c02858c2a96989ed1339f84515a",
+      "source_dataset_commit": "316b95e2353ecda832bad9b42f86fa7c2fcec8ac",
+      "prompt": "prompts/experiment-001/black-16.md",
+      "heldout_tests": "evaluation/experiment-001/black-16/test_heldout.py",
+      "regression_evaluator": "evaluation/experiment-001/black-16/metadata.json",
+      "evaluator_configuration": "experiment-002 frozen evaluator contract",
+      "source_manifest": "manifests/experiment-001.json",
+      "original_experiment": "experiment-002",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E002-C01-M",
+        "E002-C01-X"
+      ]
+    },
+    {
+      "case_id": "E002-C05",
+      "source_case_id": "tornado-13",
+      "difficulty": "moderate",
+      "source_repository": "https://github.com/tornadoweb/tornado",
+      "source_commit": "d7d9c467cda38f4c9352172ba7411edc29a85196",
+      "fixed_commit": "34903f9e1a99441b2729bbe6f1d65d46cf352ea7",
+      "source_dataset_commit": "316b95e2353ecda832bad9b42f86fa7c2fcec8ac",
+      "prompt": "prompts/experiment-001/tornado-13.md",
+      "heldout_tests": "evaluation/experiment-001/tornado-13/test_heldout.py",
+      "regression_evaluator": "evaluation/experiment-001/tornado-13/metadata.json",
+      "evaluator_configuration": "experiment-002 frozen evaluator contract",
+      "source_manifest": "manifests/experiment-001.json",
+      "original_experiment": "experiment-002",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E002-C05-M",
+        "E002-C05-X"
+      ]
+    },
+    {
+      "case_id": "E002-C03",
+      "source_case_id": "scrapy-3",
+      "difficulty": "moderate",
+      "source_repository": "https://github.com/scrapy/scrapy",
+      "source_commit": "be2e910dd06ba4904e7b10eb5a7e3251e8dab099",
+      "fixed_commit": "66cbceeb0a9104fc0fa238898e38d0d9ce9cbcf6",
+      "source_dataset_commit": "316b95e2353ecda832bad9b42f86fa7c2fcec8ac",
+      "prompt": "prompts/experiment-001/scrapy-3.md",
+      "heldout_tests": "evaluation/experiment-001/scrapy-3/test_heldout.py",
+      "regression_evaluator": "evaluation/experiment-001/scrapy-3/metadata.json",
+      "evaluator_configuration": "experiment-002 frozen evaluator contract",
+      "source_manifest": "manifests/experiment-001.json",
+      "original_experiment": "experiment-002",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E002-C03-M",
+        "E002-C03-X"
+      ]
+    },
+    {
+      "case_id": "E004-N05",
+      "source_case_id": "E004-N05",
+      "difficulty": "moderate",
+      "source_repository": "local frozen synthetic source: reportpipe",
+      "source_commit": null,
+      "source_snapshot_sha256": "3e88cee06a6e7232bb948e0769a536f891f403cfa780ea53e52eb8f09a1beb77",
+      "fixed_snapshot_sha256": "b2d580e2008dd4f580e7b4ab1ab9d33e3ef1e4fef4201bbe50b76f6d594eda1e",
+      "prompt": "../devin-agent-benchmark-e004-private/prompts/E004-N05.md",
+      "prompt_sha256": "e1d12f0c1427be980f30e302d63f97a821d4f15da4dfaf1481b44958d197826c",
+      "heldout_tests": "../devin-agent-benchmark-e004-private/evaluation/E004-N05/test_behavior.py",
+      "heldout_sha256": "0a765cfd6a9e5db8c4896b9cf0184416f294cec11911f9833a6d56f1b08b0d88",
+      "regression_evaluator": "../devin-agent-benchmark-e004-private/evaluation/E004-N05/test_regression.py",
+      "regression_sha256": "3600d8f677dd35b536cc51cfc1199dd749a7bee2b97086221b17e870a7bf9eb6",
+      "public_tests_sha256": "07a7b9d2d5a20c5c21fe00401a0373f3541550457ff69595eb4cbeca5c203ba2",
+      "evaluator_configuration": "manifests/experiment-004-config.json success_rule; private validator",
+      "source_manifest": "manifests/experiment-004-config.json",
+      "original_experiment": "experiment-004",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E004-N05-M",
+        "E004-N05-X"
+      ]
+    },
+    {
+      "case_id": "E004-N04",
+      "source_case_id": "E004-N04",
+      "difficulty": "moderate",
+      "source_repository": "local frozen synthetic source: signalhub",
+      "source_commit": null,
+      "source_snapshot_sha256": "33dcb4040821d0c9498ebe538a1b2f53ad1b5f75c143350aa2f93fe81a7bd1c1",
+      "fixed_snapshot_sha256": "2ec00be58427ee13a425756e8cc31ed954f23f292e40888d809623e1dbe74ddd",
+      "prompt": "../devin-agent-benchmark-e004-private/prompts/E004-N04.md",
+      "prompt_sha256": "f17a09cd08a4941ec641cdeb88189e7e1cf43ecf015eb3e42d62b93a6b5874c4",
+      "heldout_tests": "../devin-agent-benchmark-e004-private/evaluation/E004-N04/test_behavior.py",
+      "heldout_sha256": "950f57196cb84246cdc4fc5e65eb0a1797112d505681e6274d6cf4119b0e751f",
+      "regression_evaluator": "../devin-agent-benchmark-e004-private/evaluation/E004-N04/test_regression.py",
+      "regression_sha256": "a7119f48567c13cb6942ba921267997d18adad17e0a815483a445fac76b9ea84",
+      "public_tests_sha256": "15299061f91da90caf6dbed2fc37183338d61cbca655a73adc78d450a3f1b6ca",
+      "evaluator_configuration": "manifests/experiment-004-config.json success_rule; private validator",
+      "source_manifest": "manifests/experiment-004-config.json",
+      "original_experiment": "experiment-004",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E004-N04-M",
+        "E004-N04-X"
+      ]
+    },
+    {
+      "case_id": "E004-N01",
+      "source_case_id": "E004-N01",
+      "difficulty": "moderate",
+      "source_repository": "local frozen synthetic source: buildgraph",
+      "source_commit": null,
+      "source_snapshot_sha256": "195667d0c4721066ab7ecd59e676f1f78d841ddf269860cd2ab46733eccde513",
+      "fixed_snapshot_sha256": "2e96f077f3e39e1e0360c7d04adf7f4eb88504c8d43142b9f92044656bb7e6d1",
+      "prompt": "../devin-agent-benchmark-e004-private/prompts/E004-N01.md",
+      "prompt_sha256": "187b110ed83a0ae5d6425ac75b316b0d64bbb774b7581ab9ab0f852951c53e43",
+      "heldout_tests": "../devin-agent-benchmark-e004-private/evaluation/E004-N01/test_behavior.py",
+      "heldout_sha256": "da184f36d41c37de5be409d67a34ebcf599e6fb97ebfd6eae8a20682e3397dc7",
+      "regression_evaluator": "../devin-agent-benchmark-e004-private/evaluation/E004-N01/test_regression.py",
+      "regression_sha256": "86823f0df442c56cd4011f597d3f6704bb0d36c33448f8ed57339af726ce8ebb",
+      "public_tests_sha256": "9a6982543f43d68df0053127d1e4c93a3754c965beb02d6ca1bc2628f763fe6e",
+      "evaluator_configuration": "manifests/experiment-004-config.json success_rule; private validator",
+      "source_manifest": "manifests/experiment-004-config.json",
+      "original_experiment": "experiment-004",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E004-N01-M",
+        "E004-N01-X"
+      ]
+    },
+    {
+      "case_id": "E004-N02",
+      "source_case_id": "E004-N02",
+      "difficulty": "moderate",
+      "source_repository": "local frozen synthetic source: taskqueue",
+      "source_commit": null,
+      "source_snapshot_sha256": "750c3e095e165da446064c07348da6cad3d9b9457325a4f96585e17cb27eff5b",
+      "fixed_snapshot_sha256": "9bb01bad57b6ca46c051de84830ad55ce0414e7aa0719ead8724905851719eff",
+      "prompt": "../devin-agent-benchmark-e004-private/prompts/E004-N02.md",
+      "prompt_sha256": "3185712db445e1b1fda202222f026b4108de7a2ce044fb7dc49fe0f2db940893",
+      "heldout_tests": "../devin-agent-benchmark-e004-private/evaluation/E004-N02/test_behavior.py",
+      "heldout_sha256": "64c483c3c3340801bc1ce512b3913c25c81995453cc365064f57eeb91d5000b5",
+      "regression_evaluator": "../devin-agent-benchmark-e004-private/evaluation/E004-N02/test_regression.py",
+      "regression_sha256": "3efe111fd55281f53811ef85e119c52d68af1d6d3209f437bc7562161c8e135a",
+      "public_tests_sha256": "96f4bd0a1a705e87a7ad3f33d9e63903b96a451b22a38cac7b7d1eb713be9f66",
+      "evaluator_configuration": "manifests/experiment-004-config.json success_rule; private validator",
+      "source_manifest": "manifests/experiment-004-config.json",
+      "original_experiment": "experiment-004",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E004-N02-M",
+        "E004-N02-X"
+      ]
+    },
+    {
+      "case_id": "E004-N03",
+      "source_case_id": "E004-N03",
+      "difficulty": "moderate",
+      "source_repository": "local frozen synthetic source: preferences",
+      "source_commit": null,
+      "source_snapshot_sha256": "96a71c976f74812f8a73eec0871988fdebb68cb9b1e35c459f038e0d4ab53a48",
+      "fixed_snapshot_sha256": "040d9e482d876f02142493ee3f6b91b425bc54d33930ceb3219c2f238eeafaee",
+      "prompt": "../devin-agent-benchmark-e004-private/prompts/E004-N03.md",
+      "prompt_sha256": "cde85aa4334405da6b635378fa57a373e1a1eee60ece9ebe1225a4ad74aa9936",
+      "heldout_tests": "../devin-agent-benchmark-e004-private/evaluation/E004-N03/test_behavior.py",
+      "heldout_sha256": "7f0b5f76fb6819be56d801749370813172053b796853b2e0428dc118ddb5385e",
+      "regression_evaluator": "../devin-agent-benchmark-e004-private/evaluation/E004-N03/test_regression.py",
+      "regression_sha256": "40ed71d48cc060759cb487f82a63f66c406687bf60179bdb47fa5d8e5fa89c01",
+      "public_tests_sha256": "9f3574352b4f6f84d76815903505ca6402e527a0e48c8d6b10b173dcd1e7f082",
+      "evaluator_configuration": "manifests/experiment-004-config.json success_rule; private validator",
+      "source_manifest": "manifests/experiment-004-config.json",
+      "original_experiment": "experiment-004",
+      "original_medium_success": true,
+      "original_max_success": false,
+      "original_run_ids": [
+        "E004-N03-M",
+        "E004-N03-X"
+      ]
+    },
+    {
+      "case_id": "E005-K04",
+      "source_case_id": "E005-K04",
+      "difficulty": "hard",
+      "source_repository": "local frozen synthetic source: tornado",
+      "source_commit": "ecd8968c5135b810cd607b5902dda2cd32122b39",
+      "fixed_commit": "5931d913b4ea250891a0b582f1f8b2901b868c79",
+      "bug_id": "10",
+      "prompt": "artifacts/experiment-005/E005-K04-M/prompt.md",
+      "prompt_sha256": "501105ece57baf6cbdfdc356c34f7966fc5c92ecb55c6a15599499256ffe88d8",
+      "heldout_tests": "<WORKDIR>/experiment-005-private/evaluation/E005-K04/test_behavior.py",
+      "heldout_sha256": "ff2c769d221921e7701bd2ccfd34921a58142e8f512ca8a4dc7f0464b387eb0e",
+      "regression_evaluator": "<WORKDIR>/experiment-005-private/evaluation/E005-K04/test_regression.py",
+      "regression_sha256": "f31ceaaf318118119e960fc3a79340e675672122cc34a3e605586488c0430a68",
+      "public_tests_sha256": "09ee84bf9a24d0bfb35565d3081443e17ef1f60e34b37dc47308d532d860d017",
+      "source_snapshot_sha256": "2d7f7dd46a1123d079ab2102e0004c63078ee7a371ca0cb2762f6293b42c8579",
+      "evaluator_configuration": "manifests/experiment-005-config.json + frozen private evaluator",
+      "source_manifest": "manifests/experiment-005-config.json",
+      "original_experiment": "experiment-005",
+      "original_medium_success": false,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E005-K04-M",
+        "E005-K04-X"
+      ],
+      "source_dataset_commit": "316b95e2353ecda832bad9b42f86fa7c2fcec8ac",
+      "public_tests": [
+        "tornado/test/websocket_test.py"
+      ]
+    },
+    {
+      "case_id": "E005-K05",
+      "source_case_id": "E005-K05",
+      "difficulty": "hard",
+      "source_repository": "local frozen synthetic source: thefuck",
+      "source_commit": "d92765d5df6607cb2f2fb67cee7b63f64ac7aa6b",
+      "fixed_commit": "bb5f6bb705a3b217eb682f3357ec6bbb709555c1",
+      "bug_id": "16",
+      "prompt": "artifacts/experiment-005/E005-K05-M/prompt.md",
+      "prompt_sha256": "7bac542a7b45b312873d92bc002efd933e83ad58979553c44add2253660ec9f6",
+      "heldout_tests": "<WORKDIR>/experiment-005-private/evaluation/E005-K05/test_behavior.py",
+      "heldout_sha256": "5f98d558a6882d22ae27c8307317c6fe0d86c390f5cc514ea8af8bb8ddbc2de5",
+      "regression_evaluator": "<WORKDIR>/experiment-005-private/evaluation/E005-K05/test_regression.py",
+      "regression_sha256": "3e94a633c234da6b443e9327ad770257f2d199331f3214cdfe433e736f21fa93",
+      "public_tests_sha256": "0c000a820c42c7c29dfb15080b7c20d24dc3fc1ee50b9b61ba1646630504a283",
+      "source_snapshot_sha256": "e63126cb649e2cf5525bdf3e081c64ddc4a29e07d51ac5c14a993622f9628bb9",
+      "evaluator_configuration": "manifests/experiment-005-config.json + frozen private evaluator",
+      "source_manifest": "manifests/experiment-005-config.json",
+      "original_experiment": "experiment-005",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E005-K05-M",
+        "E005-K05-X"
+      ],
+      "source_dataset_commit": "316b95e2353ecda832bad9b42f86fa7c2fcec8ac",
+      "public_tests": [
+        "tests/shells/test_bash.py",
+        "tests/shells/test_zsh.py"
+      ]
+    },
+    {
+      "case_id": "E005-K02",
+      "source_case_id": "E005-K02",
+      "difficulty": "hard",
+      "source_repository": "local frozen synthetic source: luigi",
+      "source_commit": "c707253572deb795a900c3e07d21eee591a55fca",
+      "fixed_commit": "dc41727f4de88f86f4e77aa45be51eff4ee6b3be",
+      "bug_id": "23",
+      "prompt": "artifacts/experiment-005/E005-K02-M/prompt.md",
+      "prompt_sha256": "f666e127b503c5e6953b39e4bdd5482e1a8f68f0e9f1229804f23bb26493e485",
+      "heldout_tests": "<WORKDIR>/experiment-005-private/evaluation/E005-K02/test_behavior.py",
+      "heldout_sha256": "1f92b1a033762ce3695603a87a5be617050c327f4586f7f9e91e1c36e6d0a771",
+      "regression_evaluator": "<WORKDIR>/experiment-005-private/evaluation/E005-K02/test_regression.py",
+      "regression_sha256": "2b252cb40e51e645f3d03be59c69f4319ad5d58d494787e1a5bd818000886c88",
+      "public_tests_sha256": "8542d4018158e05092d64eb0f63354ea881c9ba62481952e3390717a3e6a408e",
+      "source_snapshot_sha256": "4810451132769f38e6fe9b43682cbe604d461485d99a6bd7bae3ec31635c978e",
+      "evaluator_configuration": "manifests/experiment-005-config.json + frozen private evaluator",
+      "source_manifest": "manifests/experiment-005-config.json",
+      "original_experiment": "experiment-005",
+      "original_medium_success": true,
+      "original_max_success": false,
+      "original_run_ids": [
+        "E005-K02-M",
+        "E005-K02-X"
+      ],
+      "source_dataset_commit": "316b95e2353ecda832bad9b42f86fa7c2fcec8ac",
+      "public_tests": [
+        "test/worker_external_task_test.py"
+      ]
+    },
+    {
+      "case_id": "E005-K01",
+      "source_case_id": "E005-K01",
+      "difficulty": "hard",
+      "source_repository": "local frozen synthetic source: fastapi",
+      "source_commit": "766157bfb4e7dfccba09ab398e8ec444d14e947c",
+      "fixed_commit": "3397d4d69a9c2d64c1219fcbf291ea5697a4abb8",
+      "bug_id": "1",
+      "prompt": "artifacts/experiment-005/E005-K01-M/prompt.md",
+      "prompt_sha256": "7e73a8187e9e5554d95b2f36c724054b2770587af63781ee5873fe1f573c79af",
+      "heldout_tests": "<WORKDIR>/experiment-005-private/evaluation/E005-K01/test_behavior.py",
+      "heldout_sha256": "f3acd804354cbc752f56363c322c2bdf7d9dc813ef85aca1266f8ac222456d3f",
+      "regression_evaluator": "<WORKDIR>/experiment-005-private/evaluation/E005-K01/test_regression.py",
+      "regression_sha256": "9ea1781f89f6fbb8f74f2a1a2234ac37d87aaaa03b9bbc60cf016b9c90f7b920",
+      "public_tests_sha256": "3f1723337a925c3197546fc0d79571f52d2cfea4d5a74d9fd8d8f63d81d12031",
+      "source_snapshot_sha256": "f17a4de1420375d320b05ae49630dba33de742e88e7219f1ad4495b88222af25",
+      "evaluator_configuration": "manifests/experiment-005-config.json + frozen private evaluator",
+      "source_manifest": "manifests/experiment-005-config.json",
+      "original_experiment": "experiment-005",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E005-K01-M",
+        "E005-K01-X"
+      ],
+      "source_dataset_commit": "316b95e2353ecda832bad9b42f86fa7c2fcec8ac",
+      "public_tests": [
+        "tests/test_jsonable_encoder.py"
+      ]
+    },
+    {
+      "case_id": "E005-H05",
+      "source_case_id": "E005-H05",
+      "difficulty": "hard",
+      "source_repository": "local frozen synthetic source: event-ledger",
+      "source_commit": "609554ae61eca457dcac7198c3b78e885fde3cb92660cd769b6064297088ab30",
+      "fixed_commit": null,
+      "bug_id": null,
+      "prompt": "artifacts/experiment-005/E005-H05-M/prompt.md",
+      "prompt_sha256": "c133e06d8336e9f94871aa5748f21b61b6104fa3904335743548472c5cc5cb4c",
+      "heldout_tests": "<WORKDIR>/experiment-005-private/evaluation/E005-H05/test_behavior.py",
+      "heldout_sha256": "048d56e6f622a756343e6689d966236469651cdc0e741f3a9404a8b2625aebf3",
+      "regression_evaluator": "<WORKDIR>/experiment-005-private/evaluation/E005-H05/test_regression.py",
+      "regression_sha256": "8f8ccb0e164cbc68b2b43c1574c340ebfe1d191039bee16a6f5c234503d8c47a",
+      "public_tests_sha256": "470987e56513cc80a81af4df1730f5d75474469fc163e67879b1062d0994757c",
+      "source_snapshot_sha256": "609554ae61eca457dcac7198c3b78e885fde3cb92660cd769b6064297088ab30",
+      "evaluator_configuration": "manifests/experiment-005-config.json + frozen private evaluator",
+      "source_manifest": "manifests/experiment-005-config.json",
+      "original_experiment": "experiment-005",
+      "original_medium_success": false,
+      "original_max_success": false,
+      "original_run_ids": [
+        "E005-H05-M",
+        "E005-H05-X"
+      ],
+      "source_dataset_commit": null,
+      "public_tests": null
+    },
+    {
+      "case_id": "E005-H04",
+      "source_case_id": "E005-H04",
+      "difficulty": "hard",
+      "source_repository": "local frozen synthetic source: order-flow",
+      "source_commit": "85d682080352fb9d10bbe1414106310ee1e52b41f33d163fcb4a06ecf742b411",
+      "fixed_commit": null,
+      "bug_id": null,
+      "prompt": "artifacts/experiment-005/E005-H04-M/prompt.md",
+      "prompt_sha256": "8da5f0ae6607276212ce31148317f491c1b9f0f93ca9bb53a03fc1220581137b",
+      "heldout_tests": "<WORKDIR>/experiment-005-private/evaluation/E005-H04/test_behavior.py",
+      "heldout_sha256": "9087196a6a27179ff0e8003bdee29aed5198676392d7e6517731f4aed18024d2",
+      "regression_evaluator": "<WORKDIR>/experiment-005-private/evaluation/E005-H04/test_regression.py",
+      "regression_sha256": "7e9154a51fe3d3fe5cf902f4df9ca6b78ce5a4f45dc32b8bccac20eac347281e",
+      "public_tests_sha256": "bec57d36b87289fb1c909efd353bd6396f6cb982e7f309d7e6704be6934d5113",
+      "source_snapshot_sha256": "85d682080352fb9d10bbe1414106310ee1e52b41f33d163fcb4a06ecf742b411",
+      "evaluator_configuration": "manifests/experiment-005-config.json + frozen private evaluator",
+      "source_manifest": "manifests/experiment-005-config.json",
+      "original_experiment": "experiment-005",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E005-H04-M",
+        "E005-H04-X"
+      ],
+      "source_dataset_commit": null,
+      "public_tests": null
+    },
+    {
+      "case_id": "E005-H03",
+      "source_case_id": "E005-H03",
+      "difficulty": "hard",
+      "source_repository": "local frozen synthetic source: wire-relay",
+      "source_commit": "467195ccffe2f481aea2b304d0f44b0e117d6c46fa9a38dc2a466a920650871b",
+      "fixed_commit": null,
+      "bug_id": null,
+      "prompt": "artifacts/experiment-005/E005-H03-M/prompt.md",
+      "prompt_sha256": "cb515641dff9ccc69ad8cc58046fb036e58b71b6f476f1a610d06e81cc73289b",
+      "heldout_tests": "<WORKDIR>/experiment-005-private/evaluation/E005-H03/test_behavior.py",
+      "heldout_sha256": "e8b456c60fa4c4c65b49d7af27c1ff0bfc94209ddc3ece38e3028d33d8e62db9",
+      "regression_evaluator": "<WORKDIR>/experiment-005-private/evaluation/E005-H03/test_regression.py",
+      "regression_sha256": "1e6ce1f2aba10c0da03ff616243b89d096dd3898511516d9c86c3b7298bdaa8b",
+      "public_tests_sha256": "2439ecd6c4f7028ce345e39cafe869388f72890c857779386a03f95e2512222e",
+      "source_snapshot_sha256": "467195ccffe2f481aea2b304d0f44b0e117d6c46fa9a38dc2a466a920650871b",
+      "evaluator_configuration": "manifests/experiment-005-config.json + frozen private evaluator",
+      "source_manifest": "manifests/experiment-005-config.json",
+      "original_experiment": "experiment-005",
+      "original_medium_success": true,
+      "original_max_success": false,
+      "original_run_ids": [
+        "E005-H03-M",
+        "E005-H03-X"
+      ],
+      "source_dataset_commit": null,
+      "public_tests": null
+    },
+    {
+      "case_id": "E005-K03",
+      "source_case_id": "E005-K03",
+      "difficulty": "hard",
+      "source_repository": "local frozen synthetic source: tornado",
+      "source_commit": "fb74e4816ccfa7fc6a7abd8c8aab1f415cfc1b13",
+      "fixed_commit": "2905ee4fb3c283d40b10f609359e189c83a0dc06",
+      "bug_id": "6",
+      "prompt": "artifacts/experiment-005/E005-K03-M/prompt.md",
+      "prompt_sha256": "299f94c0da2286f18b285b3c26a78cbdd4b9dccf64d55a575571b1279914b4c8",
+      "heldout_tests": "<WORKDIR>/experiment-005-private/evaluation/E005-K03/test_behavior.py",
+      "heldout_sha256": "bb29e8d9cda6df640a80b1acee8f6cabf3a13f38d09bf93eff3a1f6fafa0fe2c",
+      "regression_evaluator": "<WORKDIR>/experiment-005-private/evaluation/E005-K03/test_regression.py",
+      "regression_sha256": "540616a4c59cbc1a9f2f08de31db711d76aa26507d890955d8ce3c641b924b6f",
+      "public_tests_sha256": "bfa91d66201db9cce62a28a2786490c89aa67cbb6ad20cb49dc6dfc7a6185b6d",
+      "source_snapshot_sha256": "ee927dcffcab9c2dda294749cc24c51dfd74f0d814c27c87aee5f244ce9c650b",
+      "evaluator_configuration": "manifests/experiment-005-config.json + frozen private evaluator",
+      "source_manifest": "manifests/experiment-005-config.json",
+      "original_experiment": "experiment-005",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E005-K03-M",
+        "E005-K03-X"
+      ],
+      "source_dataset_commit": "316b95e2353ecda832bad9b42f86fa7c2fcec8ac",
+      "public_tests": [
+        "tornado/test/asyncio_test.py"
+      ]
+    },
+    {
+      "case_id": "E005-H01",
+      "source_case_id": "E005-H01",
+      "difficulty": "hard",
+      "source_repository": "local frozen synthetic source: feature-plan",
+      "source_commit": "51de31a932c9c8b0d0c00edafbb1a85ad4580e4ba236341011fab07bbc457ac9",
+      "fixed_commit": null,
+      "bug_id": null,
+      "prompt": "artifacts/experiment-005/E005-H01-M/prompt.md",
+      "prompt_sha256": "c60707dae70637ff3e44369f4d908784ef54460e21d338bfef6a6c1e3e5fed83",
+      "heldout_tests": "<WORKDIR>/experiment-005-private/evaluation/E005-H01/test_behavior.py",
+      "heldout_sha256": "29166de5393b057778e93930b923ac32ad3e10ba62fc77f216492a1ad3965433",
+      "regression_evaluator": "<WORKDIR>/experiment-005-private/evaluation/E005-H01/test_regression.py",
+      "regression_sha256": "46e9dfa73ea806d42f091ab6cc89765eda1ba20a279f4f4c3b14883db874d9ba",
+      "public_tests_sha256": "b7ec946da7ac3549ce9f143757902c7bb43d15626be2afed52111bab7587ea1f",
+      "source_snapshot_sha256": "51de31a932c9c8b0d0c00edafbb1a85ad4580e4ba236341011fab07bbc457ac9",
+      "evaluator_configuration": "manifests/experiment-005-config.json + frozen private evaluator",
+      "source_manifest": "manifests/experiment-005-config.json",
+      "original_experiment": "experiment-005",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E005-H01-M",
+        "E005-H01-X"
+      ],
+      "source_dataset_commit": null,
+      "public_tests": null
+    },
+    {
+      "case_id": "E005-H02",
+      "source_case_id": "E005-H02",
+      "difficulty": "hard",
+      "source_repository": "local frozen synthetic source: work-queue",
+      "source_commit": "540dbd98d22fd6cd02fe9880cb0d0ff680bab5ea7490fca1b3247829a0671368",
+      "fixed_commit": null,
+      "bug_id": null,
+      "prompt": "artifacts/experiment-005/E005-H02-M/prompt.md",
+      "prompt_sha256": "01235131c0b9c35053abb5b3ac701cc1b1ba4ff3e896548c5fff41828e38f268",
+      "heldout_tests": "<WORKDIR>/experiment-005-private/evaluation/E005-H02/test_behavior.py",
+      "heldout_sha256": "8c38c744e37d9d7675b6017a26e8a3a775ad5e1e751f3eeac0429060a4428cca",
+      "regression_evaluator": "<WORKDIR>/experiment-005-private/evaluation/E005-H02/test_regression.py",
+      "regression_sha256": "c6c68e13107ea51566b0a4015387ed8ecfce3755efa3e76a99314c75a6208612",
+      "public_tests_sha256": "6e897deb1890c96200e935a88024f1a33c0e58f39b09e907ce99799c379efebd",
+      "source_snapshot_sha256": "540dbd98d22fd6cd02fe9880cb0d0ff680bab5ea7490fca1b3247829a0671368",
+      "evaluator_configuration": "manifests/experiment-005-config.json + frozen private evaluator",
+      "source_manifest": "manifests/experiment-005-config.json",
+      "original_experiment": "experiment-005",
+      "original_medium_success": false,
+      "original_max_success": false,
+      "original_run_ids": [
+        "E005-H02-M",
+        "E005-H02-X"
+      ],
+      "source_dataset_commit": null,
+      "public_tests": null
+    },
+    {
+      "case_id": "E006-K03",
+      "source_case_id": "black-23",
+      "difficulty": "very-hard",
+      "source_repository": "https://github.com/psf/black",
+      "source_commit": "8de552eb4f0fbf1ad84812cde71489cc00d3ed1f",
+      "fixed_commit": "6316e293ac30a2837ec20eba289fd28a2a18cf89",
+      "bug_id": "23",
+      "prompt": "prompts/experiment-006/E006-K03.md",
+      "prompt_sha256": "a4c4029243b3d1d5b4e93ecd542087c8b3d89781400a3192d4a853406a3cfd0a",
+      "heldout_tests": "private:E006-K03",
+      "heldout_sha256": "9c4c4e36353b4cb15896afb6d48ead827ecbd4bf5295a56e75211b3a48a0f838",
+      "regression_evaluator": "private frozen regression evaluator",
+      "regression_sha256": "3eff128cf1f711685d351d0059eb98e05907c4c972908103a0be166770bec8c1",
+      "public_tests": [
+        "tests/python2.py",
+        "tests/test_black.py"
+      ],
+      "public_tests_sha256": "87289b4d5fcd5430c294d5a31a81778a3e28f28607cf33f7d1bf947b361e5568",
+      "source_snapshot_sha256": "42d55576373a26045d51643c0309e560ab074c8d6b4ac835686df000fd6b11d7",
+      "evaluator_configuration": "manifests/experiment-006-config.json + private frozen evaluator",
+      "source_manifest": "manifests/experiment-006-config.json",
+      "original_experiment": "experiment-006",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E006-K03-M",
+        "E006-K03-X"
+      ]
+    },
+    {
+      "case_id": "E006-H02",
+      "source_case_id": "work-queue",
+      "difficulty": "very-hard",
+      "source_repository": "local frozen synthetic source: E006 synthetic work-queue",
+      "source_commit": null,
+      "fixed_commit": null,
+      "bug_id": null,
+      "prompt": "prompts/experiment-006/E006-H02.md",
+      "prompt_sha256": "a0ca878941de1f1a69c892d3391fd4834dba0acbe1b5c2f980e4f4e44395edb1",
+      "heldout_tests": "private:E006-H02",
+      "heldout_sha256": "f7c3f407e2c8d181da20ded2d5687d6cc520f5bdd9b7099bdf22215630385c72",
+      "regression_evaluator": "private frozen regression evaluator",
+      "regression_sha256": "708fb33f5b9b428ddb553306b64cc2d07c5e6b1a0b585e7a5a7a455e284170f3",
+      "public_tests": null,
+      "public_tests_sha256": "a078efd482f30177320b2a2386899b1a25d84d0f1d15bae79dec4a37e3a8abf2",
+      "source_snapshot_sha256": "b1caca29d0b12d59ff87a97f89e6ed19a14ebb6d04d5b94889091d700c9a849e",
+      "evaluator_configuration": "manifests/experiment-006-config.json + private frozen evaluator",
+      "source_manifest": "manifests/experiment-006-config.json",
+      "original_experiment": "experiment-006",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E006-H02-M",
+        "E006-H02-X"
+      ]
+    },
+    {
+      "case_id": "E006-H03",
+      "source_case_id": "wire-relay",
+      "difficulty": "very-hard",
+      "source_repository": "local frozen synthetic source: E006 synthetic wire-relay",
+      "source_commit": null,
+      "fixed_commit": null,
+      "bug_id": null,
+      "prompt": "prompts/experiment-006/E006-H03.md",
+      "prompt_sha256": "6279c4b7f7a5c80fed2977a6166014a410974dbb5f98c58ea2ddd12e1d3a3cb8",
+      "heldout_tests": "private:E006-H03",
+      "heldout_sha256": "37a962885eef0ab5138c998128adbe674ab702b3c6453dd4eeee055782155547",
+      "regression_evaluator": "private frozen regression evaluator",
+      "regression_sha256": "d41a39d225201f39371caae9a4c4a305b4168ed8591ae0201d157a56be445001",
+      "public_tests": null,
+      "public_tests_sha256": "74cf6b10232ede0d0b795b53948343a673d68599273c4ce85451966ae90a8ca9",
+      "source_snapshot_sha256": "73d4e96c43ae6dd705e72ff1870d54754941e42f44db539bd698ae414656abd8",
+      "evaluator_configuration": "manifests/experiment-006-config.json + private frozen evaluator",
+      "source_manifest": "manifests/experiment-006-config.json",
+      "original_experiment": "experiment-006",
+      "original_medium_success": false,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E006-H03-M",
+        "E006-H03-X"
+      ]
+    },
+    {
+      "case_id": "E006-K05",
+      "source_case_id": "tqdm-2",
+      "difficulty": "very-hard",
+      "source_repository": "https://github.com/tqdm/tqdm",
+      "source_commit": "bef86db56654d271838b145ad77f7040a73a7b4d",
+      "fixed_commit": "127af5caf19e7d29c346f5ca8a9c7ef3004b664b",
+      "bug_id": "2",
+      "prompt": "prompts/experiment-006/E006-K05.md",
+      "prompt_sha256": "23e06a1032063aef0947faf9067bced3720d4305ed59d5db5039a37d5081aa9b",
+      "heldout_tests": "private:E006-K05",
+      "heldout_sha256": "8f7aff44aba0186326da618152775eea413a0d41f269554e1f6725d214f62c05",
+      "regression_evaluator": "private frozen regression evaluator",
+      "regression_sha256": "92f4ea2750b5e7551413eff98ccae604449d23a18bb4296ab4be8a6d2101eef5",
+      "public_tests": [
+        "tqdm/tests/tests_tqdm.py"
+      ],
+      "public_tests_sha256": "4cc6a12377edcb20f0ccfcb17ce04986fc618f11e3ccf17bcbb00738af0b472c",
+      "source_snapshot_sha256": "3073c86a50b77bd09ab08899e32b213be57e56493b6acfc9cf0c3564f8415394",
+      "evaluator_configuration": "manifests/experiment-006-config.json + private frozen evaluator",
+      "source_manifest": "manifests/experiment-006-config.json",
+      "original_experiment": "experiment-006",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E006-K05-M",
+        "E006-K05-X"
+      ]
+    },
+    {
+      "case_id": "E006-K04",
+      "source_case_id": "thefuck-17",
+      "difficulty": "very-hard",
+      "source_repository": "https://github.com/nvbn/thefuck",
+      "source_commit": "f7f0660114a02fe49578ec5684dd02c81042d175",
+      "fixed_commit": "7ce4307c87c1e2e4106db2c961e48e249be987be",
+      "bug_id": "17",
+      "prompt": "prompts/experiment-006/E006-K04.md",
+      "prompt_sha256": "c6c0611bc0471348bac43fa15e5e209b1619d663bdc202b8f90533e9e005b389",
+      "heldout_tests": "private:E006-K04",
+      "heldout_sha256": "3c80e425cab8a78d17c82f0772c9242ab8c8131f96f1d86ed7c877a28542a0db",
+      "regression_evaluator": "private frozen regression evaluator",
+      "regression_sha256": "ed67b411fabb3e7457324fdafde746cf5d136f6b20b30c9ab0f901aa46c7ef91",
+      "public_tests": [
+        "tests/shells/test_bash.py"
+      ],
+      "public_tests_sha256": "175fc133674c7ebcfef7f554718f038b06e63c00fe3d920ce129ea221c6830da",
+      "source_snapshot_sha256": "bf401e4f6cf650d7163ed206e15eef2b6a0a562a8a0bbef7c7410c786ac81072",
+      "evaluator_configuration": "manifests/experiment-006-config.json + private frozen evaluator",
+      "source_manifest": "manifests/experiment-006-config.json",
+      "original_experiment": "experiment-006",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E006-K04-M",
+        "E006-K04-X"
+      ]
+    },
+    {
+      "case_id": "E006-H01",
+      "source_case_id": "feature-store",
+      "difficulty": "very-hard",
+      "source_repository": "local frozen synthetic source: E006 synthetic feature-store",
+      "source_commit": null,
+      "fixed_commit": null,
+      "bug_id": null,
+      "prompt": "prompts/experiment-006/E006-H01.md",
+      "prompt_sha256": "68782aa92078dab734092e25acfc61532e916169be6708c50dbe32756d69e608",
+      "heldout_tests": "private:E006-H01",
+      "heldout_sha256": "f05f3fcf344767c4996cc2ec3a56561b5fe717f6f3e77b48b8688f3d33607ae3",
+      "regression_evaluator": "private frozen regression evaluator",
+      "regression_sha256": "71771522ad8585cd90c54a58f947bd66df2c6cb719b46459a0b4d008265e49ab",
+      "public_tests": null,
+      "public_tests_sha256": "e2c94666dd8e13f01e0d946f00e6e7211255d34e7249429c234f3ce457c7a7dd",
+      "source_snapshot_sha256": "0400d16988f6835a92307d11b2562a5d9a9fd9ed96402c19916283b3d23dba25",
+      "evaluator_configuration": "manifests/experiment-006-config.json + private frozen evaluator",
+      "source_manifest": "manifests/experiment-006-config.json",
+      "original_experiment": "experiment-006",
+      "original_medium_success": false,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E006-H01-M",
+        "E006-H01-X"
+      ]
+    },
+    {
+      "case_id": "E006-H05",
+      "source_case_id": "profile-runtime",
+      "difficulty": "very-hard",
+      "source_repository": "local frozen synthetic source: E006 synthetic profile-runtime",
+      "source_commit": null,
+      "fixed_commit": null,
+      "bug_id": null,
+      "prompt": "prompts/experiment-006/E006-H05.md",
+      "prompt_sha256": "3f620340f0ede03388af1305922ed10b50eafb521d963cd62ad20ec52a05340a",
+      "heldout_tests": "private:E006-H05",
+      "heldout_sha256": "456dd484f2c8a31d0780ec854ddb956872266f629e3a8d7f4206804a85ee2e79",
+      "regression_evaluator": "private frozen regression evaluator",
+      "regression_sha256": "81431cb7d6f69202992042bf08704f3b6a25a580fcd6b9e75433183e65842fb1",
+      "public_tests": null,
+      "public_tests_sha256": "593162643a866407a0cc280777e32d5874c3555dbc113f84ad0edb25a6fe79d0",
+      "source_snapshot_sha256": "75ba42fd562146efec3ff36a9c99f905f72f3bdcb28b42567f492d4b56a3e2ea",
+      "evaluator_configuration": "manifests/experiment-006-config.json + private frozen evaluator",
+      "source_manifest": "manifests/experiment-006-config.json",
+      "original_experiment": "experiment-006",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E006-H05-M",
+        "E006-H05-X"
+      ]
+    },
+    {
+      "case_id": "E006-K02",
+      "source_case_id": "PySnooper-1",
+      "difficulty": "very-hard",
+      "source_repository": "https://github.com/cool-RR/PySnooper",
+      "source_commit": "e21a31162f4c54be693d8ca8260e42393b39abd3",
+      "fixed_commit": "56f22f8ffe1c6b2be4d2cf3ad1987fdb66113da2",
+      "bug_id": "1",
+      "prompt": "prompts/experiment-006/E006-K02.md",
+      "prompt_sha256": "2c7949865d28e4731a8fcd80dd0a9067f9c16239dd665788263a9973b5da9998",
+      "heldout_tests": "private:E006-K02",
+      "heldout_sha256": "9d1b40a1fda3d76f07a4ca5a01914ccd19af927b4be96636ac78df6bb1c6132e",
+      "regression_evaluator": "private frozen regression evaluator",
+      "regression_sha256": "94dbc80b01bfb43159cddb66e33dbd354e9a2153cb94a892ee874a71cfed20e8",
+      "public_tests": [
+        "tests/test_chinese.py",
+        "tests/test_source_encoding_compat.py"
+      ],
+      "public_tests_sha256": "87f21ee76c5e9b61b9e180f7844604a57af23bb9284d7b50dda8165132f4cd2b",
+      "source_snapshot_sha256": "6bf3021d8c6a8b153940c2af4c19c9019b9b6a68533b48e463f8db4bfde9028c",
+      "evaluator_configuration": "manifests/experiment-006-config.json + private frozen evaluator",
+      "source_manifest": "manifests/experiment-006-config.json",
+      "original_experiment": "experiment-006",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E006-K02-M",
+        "E006-K02-X"
+      ]
+    },
+    {
+      "case_id": "E006-H04",
+      "source_case_id": "account-ledger",
+      "difficulty": "very-hard",
+      "source_repository": "local frozen synthetic source: E006 synthetic account-ledger",
+      "source_commit": null,
+      "fixed_commit": null,
+      "bug_id": null,
+      "prompt": "prompts/experiment-006/E006-H04.md",
+      "prompt_sha256": "51bcf59694b8086eb5019cf53a98079f61a002242acac9d8366fe582d42875eb",
+      "heldout_tests": "private:E006-H04",
+      "heldout_sha256": "df1a29bb2ac7ba52da3e147bdab8ef1006b3dc7979673f9a33d7fa1f485b1ce0",
+      "regression_evaluator": "private frozen regression evaluator",
+      "regression_sha256": "43320ea0899e9c53f93d9fd922802d91b2d65b0ff718463dfed0998a676f99a1",
+      "public_tests": null,
+      "public_tests_sha256": "becd80a7e5d586c7afbd17f8863f84d70028701be543bcc18a9f068a62e0a11e",
+      "source_snapshot_sha256": "7cba5d7e23e2da957663e8fc64703451aa0369c0621ffef16e1fc2d34253e9d6",
+      "evaluator_configuration": "manifests/experiment-006-config.json + private frozen evaluator",
+      "source_manifest": "manifests/experiment-006-config.json",
+      "original_experiment": "experiment-006",
+      "original_medium_success": false,
+      "original_max_success": false,
+      "original_run_ids": [
+        "E006-H04-M",
+        "E006-H04-X"
+      ]
+    },
+    {
+      "case_id": "E006-K01",
+      "source_case_id": "black-6",
+      "difficulty": "very-hard",
+      "source_repository": "https://github.com/psf/black",
+      "source_commit": "8c8adedc2a74a494c24f93e405b6418ac32f54cd",
+      "fixed_commit": "f8617f975d56e81cfb4070ce65584f7b29a77e7a",
+      "bug_id": "6",
+      "prompt": "prompts/experiment-006/E006-K01.md",
+      "prompt_sha256": "3d725880dcb7f233ee3ed60fcab2744dcc0200fb81d537ce4971fba7cd868781",
+      "heldout_tests": "private:E006-K01",
+      "heldout_sha256": "44b781fe9f7fa1e27b8d26f791d06e98c38334b4dcedea8e3c4b085cf9b66236",
+      "regression_evaluator": "private frozen regression evaluator",
+      "regression_sha256": "a8b0a3012468c80334f3fab50ca8c5a9b2020cdad35cfa506b68c27a5a987304",
+      "public_tests": [
+        "tests/test_black.py",
+        "tests/data/comment_after_escaped_newline.py",
+        "tests/data/async_as_identifier.py"
+      ],
+      "public_tests_sha256": "be34b284aec545c24d25f2e82c34ba207bbe25f19afc3174119b18bd876a5682",
+      "source_snapshot_sha256": "b98930bf1ccaeaccbadddd34cc2420e977552a37a302dec6e13a06b897db413a",
+      "evaluator_configuration": "manifests/experiment-006-config.json + private frozen evaluator",
+      "source_manifest": "manifests/experiment-006-config.json",
+      "original_experiment": "experiment-006",
+      "original_medium_success": true,
+      "original_max_success": true,
+      "original_run_ids": [
+        "E006-K01-M",
+        "E006-K01-X"
+      ]
+    }
+  ],
+  "run_count": 90,
+  "run_order": [
+    {
+      "run_id": "E007-E002-C02-MEDIUM",
+      "case_id": "E002-C02",
+      "difficulty": "moderate",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C02-HIGH",
+      "case_id": "E002-C02",
+      "difficulty": "moderate",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C02-MAX",
+      "case_id": "E002-C02",
+      "difficulty": "moderate",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C04-HIGH",
+      "case_id": "E002-C04",
+      "difficulty": "moderate",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C04-MAX",
+      "case_id": "E002-C04",
+      "difficulty": "moderate",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C04-MEDIUM",
+      "case_id": "E002-C04",
+      "difficulty": "moderate",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C01-MAX",
+      "case_id": "E002-C01",
+      "difficulty": "moderate",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C01-MEDIUM",
+      "case_id": "E002-C01",
+      "difficulty": "moderate",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C01-HIGH",
+      "case_id": "E002-C01",
+      "difficulty": "moderate",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C05-MEDIUM",
+      "case_id": "E002-C05",
+      "difficulty": "moderate",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C05-HIGH",
+      "case_id": "E002-C05",
+      "difficulty": "moderate",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C05-MAX",
+      "case_id": "E002-C05",
+      "difficulty": "moderate",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C03-HIGH",
+      "case_id": "E002-C03",
+      "difficulty": "moderate",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C03-MAX",
+      "case_id": "E002-C03",
+      "difficulty": "moderate",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E002-C03-MEDIUM",
+      "case_id": "E002-C03",
+      "difficulty": "moderate",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N05-MAX",
+      "case_id": "E004-N05",
+      "difficulty": "moderate",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N05-MEDIUM",
+      "case_id": "E004-N05",
+      "difficulty": "moderate",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N05-HIGH",
+      "case_id": "E004-N05",
+      "difficulty": "moderate",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N04-MEDIUM",
+      "case_id": "E004-N04",
+      "difficulty": "moderate",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N04-HIGH",
+      "case_id": "E004-N04",
+      "difficulty": "moderate",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N04-MAX",
+      "case_id": "E004-N04",
+      "difficulty": "moderate",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N01-HIGH",
+      "case_id": "E004-N01",
+      "difficulty": "moderate",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N01-MAX",
+      "case_id": "E004-N01",
+      "difficulty": "moderate",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N01-MEDIUM",
+      "case_id": "E004-N01",
+      "difficulty": "moderate",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N02-MAX",
+      "case_id": "E004-N02",
+      "difficulty": "moderate",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N02-MEDIUM",
+      "case_id": "E004-N02",
+      "difficulty": "moderate",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N02-HIGH",
+      "case_id": "E004-N02",
+      "difficulty": "moderate",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N03-MEDIUM",
+      "case_id": "E004-N03",
+      "difficulty": "moderate",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N03-HIGH",
+      "case_id": "E004-N03",
+      "difficulty": "moderate",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E004-N03-MAX",
+      "case_id": "E004-N03",
+      "difficulty": "moderate",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K04-HIGH",
+      "case_id": "E005-K04",
+      "difficulty": "hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K04-MAX",
+      "case_id": "E005-K04",
+      "difficulty": "hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K04-MEDIUM",
+      "case_id": "E005-K04",
+      "difficulty": "hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K05-MAX",
+      "case_id": "E005-K05",
+      "difficulty": "hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K05-MEDIUM",
+      "case_id": "E005-K05",
+      "difficulty": "hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K05-HIGH",
+      "case_id": "E005-K05",
+      "difficulty": "hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K02-MEDIUM",
+      "case_id": "E005-K02",
+      "difficulty": "hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K02-HIGH",
+      "case_id": "E005-K02",
+      "difficulty": "hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K02-MAX",
+      "case_id": "E005-K02",
+      "difficulty": "hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K01-HIGH",
+      "case_id": "E005-K01",
+      "difficulty": "hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K01-MAX",
+      "case_id": "E005-K01",
+      "difficulty": "hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K01-MEDIUM",
+      "case_id": "E005-K01",
+      "difficulty": "hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H05-MAX",
+      "case_id": "E005-H05",
+      "difficulty": "hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H05-MEDIUM",
+      "case_id": "E005-H05",
+      "difficulty": "hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H05-HIGH",
+      "case_id": "E005-H05",
+      "difficulty": "hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H04-MEDIUM",
+      "case_id": "E005-H04",
+      "difficulty": "hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H04-HIGH",
+      "case_id": "E005-H04",
+      "difficulty": "hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H04-MAX",
+      "case_id": "E005-H04",
+      "difficulty": "hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H03-HIGH",
+      "case_id": "E005-H03",
+      "difficulty": "hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H03-MAX",
+      "case_id": "E005-H03",
+      "difficulty": "hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H03-MEDIUM",
+      "case_id": "E005-H03",
+      "difficulty": "hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K03-MAX",
+      "case_id": "E005-K03",
+      "difficulty": "hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K03-MEDIUM",
+      "case_id": "E005-K03",
+      "difficulty": "hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-K03-HIGH",
+      "case_id": "E005-K03",
+      "difficulty": "hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H01-MEDIUM",
+      "case_id": "E005-H01",
+      "difficulty": "hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H01-HIGH",
+      "case_id": "E005-H01",
+      "difficulty": "hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H01-MAX",
+      "case_id": "E005-H01",
+      "difficulty": "hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H02-HIGH",
+      "case_id": "E005-H02",
+      "difficulty": "hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H02-MAX",
+      "case_id": "E005-H02",
+      "difficulty": "hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E005-H02-MEDIUM",
+      "case_id": "E005-H02",
+      "difficulty": "hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K03-MAX",
+      "case_id": "E006-K03",
+      "difficulty": "very-hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K03-MEDIUM",
+      "case_id": "E006-K03",
+      "difficulty": "very-hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K03-HIGH",
+      "case_id": "E006-K03",
+      "difficulty": "very-hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H02-MEDIUM",
+      "case_id": "E006-H02",
+      "difficulty": "very-hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H02-HIGH",
+      "case_id": "E006-H02",
+      "difficulty": "very-hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H02-MAX",
+      "case_id": "E006-H02",
+      "difficulty": "very-hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H03-HIGH",
+      "case_id": "E006-H03",
+      "difficulty": "very-hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H03-MAX",
+      "case_id": "E006-H03",
+      "difficulty": "very-hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H03-MEDIUM",
+      "case_id": "E006-H03",
+      "difficulty": "very-hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K05-MAX",
+      "case_id": "E006-K05",
+      "difficulty": "very-hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K05-MEDIUM",
+      "case_id": "E006-K05",
+      "difficulty": "very-hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K05-HIGH",
+      "case_id": "E006-K05",
+      "difficulty": "very-hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K04-MEDIUM",
+      "case_id": "E006-K04",
+      "difficulty": "very-hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K04-HIGH",
+      "case_id": "E006-K04",
+      "difficulty": "very-hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K04-MAX",
+      "case_id": "E006-K04",
+      "difficulty": "very-hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H01-HIGH",
+      "case_id": "E006-H01",
+      "difficulty": "very-hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H01-MAX",
+      "case_id": "E006-H01",
+      "difficulty": "very-hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H01-MEDIUM",
+      "case_id": "E006-H01",
+      "difficulty": "very-hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H05-MAX",
+      "case_id": "E006-H05",
+      "difficulty": "very-hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H05-MEDIUM",
+      "case_id": "E006-H05",
+      "difficulty": "very-hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H05-HIGH",
+      "case_id": "E006-H05",
+      "difficulty": "very-hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K02-MEDIUM",
+      "case_id": "E006-K02",
+      "difficulty": "very-hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K02-HIGH",
+      "case_id": "E006-K02",
+      "difficulty": "very-hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K02-MAX",
+      "case_id": "E006-K02",
+      "difficulty": "very-hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H04-HIGH",
+      "case_id": "E006-H04",
+      "difficulty": "very-hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H04-MAX",
+      "case_id": "E006-H04",
+      "difficulty": "very-hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-H04-MEDIUM",
+      "case_id": "E006-H04",
+      "difficulty": "very-hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K01-MAX",
+      "case_id": "E006-K01",
+      "difficulty": "very-hard",
+      "model": "swe-2-max",
+      "reasoning_effort": "max",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K01-MEDIUM",
+      "case_id": "E006-K01",
+      "difficulty": "very-hard",
+      "model": "swe-2-medium",
+      "reasoning_effort": "medium",
+      "status": "frozen-pending"
+    },
+    {
+      "run_id": "E007-E006-K01-HIGH",
+      "case_id": "E006-K01",
+      "difficulty": "very-hard",
+      "model": "swe-2-high",
+      "reasoning_effort": "high",
+      "status": "frozen-pending"
+    }
+  ],
+  "original_result_reconciliation": {
+    "moderate_medium": {
+      "successes": 10,
+      "n": 10
+    },
+    "moderate_max": {
+      "successes": 8,
+      "n": 10
+    },
+    "hard_medium": {
+      "successes": 7,
+      "n": 10
+    },
+    "hard_max": {
+      "successes": 6,
+      "n": 10
+    },
+    "very-hard_medium": {
+      "successes": 7,
+      "n": 10
+    },
+    "very-hard_max": {
+      "successes": 9,
+      "n": 10
+    }
+  },
+  "scoring": "TASK_SUCCESS from existing evaluator: public + heldout + regression pass; infrastructure/evaluator error excluded from success scoring and separately classified."
+}

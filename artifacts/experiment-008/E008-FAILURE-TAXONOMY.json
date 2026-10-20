@@ -1,0 +1,620 @@
+{
+  "discordant_case_failure_details": [
+    {
+      "case_id": "E002-C02",
+      "changed_efforts": [
+        {
+          "e007_all_changed_path_count": 3,
+          "e007_failing_test_identifiers": [
+            "tests/test_serialize_response_model.py::test_valid",
+            "tests/test_serialize_response_model.py::test_coerce",
+            "tests/test_serialize_response_model.py::test_validlist",
+            "tests/test_serialize_response_model.py::test_validdict"
+          ],
+          "e007_failure_taxonomy": "public-suite failure",
+          "e007_outcome": false,
+          "e007_recheck_status": "not_rechecked",
+          "e007_recorded_outcome": false,
+          "e007_run_id": "E007-E002-C02-MEDIUM",
+          "e007_source_files_after_generated_filter": [
+            "fastapi/routing.py"
+          ],
+          "e007_steps": 34,
+          "e007_suite_failure": "public",
+          "e007_tokens": 473186,
+          "e007_trace": {
+            "edit_calls_heuristic": 4,
+            "exploration_calls_heuristic": 23,
+            "first_edit_step_heuristic": 9,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 5,
+            "tool_calls": 27,
+            "trace_available": true,
+            "trace_steps": 34
+          },
+          "e007_wall_seconds": 288.41546212503454,
+          "effort": "medium",
+          "original_failure_taxonomy": "successful repair",
+          "original_outcome": true,
+          "original_run_id": "E002-C02-M",
+          "original_source_files": [
+            "fastapi/routing.py"
+          ],
+          "original_steps": 35,
+          "original_suite_failure": "successful repair",
+          "original_tokens": 609329,
+          "original_trace": {
+            "edit_calls_heuristic": 3,
+            "exploration_calls_heuristic": 22,
+            "first_edit_step_heuristic": 14,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 6,
+            "tool_calls": 30,
+            "trace_available": true,
+            "trace_steps": 35
+          },
+          "original_wall_seconds": 299.332
+        }
+      ],
+      "difficulty": "moderate",
+      "source_case_id": "fastapi-3",
+      "source_experiment": "E002"
+    },
+    {
+      "case_id": "E002-C05",
+      "changed_efforts": [
+        {
+          "e007_all_changed_path_count": 36,
+          "e007_failing_test_identifiers": [
+            "(errors=1)"
+          ],
+          "e007_failure_taxonomy": "held-out/incomplete fix",
+          "e007_outcome": false,
+          "e007_recheck_status": "not_rechecked",
+          "e007_recorded_outcome": false,
+          "e007_run_id": "E007-E002-C05-MEDIUM",
+          "e007_source_files_after_generated_filter": [
+            "tornado/http1connection.py",
+            "tornado/httputil.py"
+          ],
+          "e007_steps": 30,
+          "e007_suite_failure": "heldout",
+          "e007_tokens": 500008,
+          "e007_trace": {
+            "edit_calls_heuristic": 5,
+            "exploration_calls_heuristic": 19,
+            "first_edit_step_heuristic": 9,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 7,
+            "tool_calls": 22,
+            "trace_available": true,
+            "trace_steps": 30
+          },
+          "e007_wall_seconds": 184.25452741695335,
+          "effort": "medium",
+          "original_failure_taxonomy": "successful repair",
+          "original_outcome": true,
+          "original_run_id": "E002-C05-M",
+          "original_source_files": [
+            "tornado/http1connection.py"
+          ],
+          "original_steps": 33,
+          "original_suite_failure": "successful repair",
+          "original_tokens": 439766,
+          "original_trace": {
+            "edit_calls_heuristic": 7,
+            "exploration_calls_heuristic": 24,
+            "first_edit_step_heuristic": 9,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 8,
+            "tool_calls": 25,
+            "trace_available": true,
+            "trace_steps": 33
+          },
+          "original_wall_seconds": 175.535
+        },
+        {
+          "e007_all_changed_path_count": 40,
+          "e007_failing_test_identifiers": [
+            "(errors=1)"
+          ],
+          "e007_failure_taxonomy": "held-out/incomplete fix",
+          "e007_outcome": false,
+          "e007_recheck_status": "not_rechecked",
+          "e007_recorded_outcome": false,
+          "e007_run_id": "E007-E002-C05-MAX",
+          "e007_source_files_after_generated_filter": [
+            "tornado/http1connection.py"
+          ],
+          "e007_steps": 44,
+          "e007_suite_failure": "heldout",
+          "e007_tokens": 1167356,
+          "e007_trace": {
+            "edit_calls_heuristic": 4,
+            "exploration_calls_heuristic": 37,
+            "first_edit_step_heuristic": 24,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 7,
+            "tool_calls": 40,
+            "trace_available": true,
+            "trace_steps": 44
+          },
+          "e007_wall_seconds": 358.496036291006,
+          "effort": "max",
+          "original_failure_taxonomy": "successful repair",
+          "original_outcome": true,
+          "original_run_id": "E002-C05-X",
+          "original_source_files": [
+            "tornado/http1connection.py"
+          ],
+          "original_steps": 36,
+          "original_suite_failure": "successful repair",
+          "original_tokens": 793236,
+          "original_trace": {
+            "edit_calls_heuristic": 5,
+            "exploration_calls_heuristic": 27,
+            "first_edit_step_heuristic": 16,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 10,
+            "tool_calls": 30,
+            "trace_available": true,
+            "trace_steps": 36
+          },
+          "original_wall_seconds": 326.457
+        }
+      ],
+      "difficulty": "moderate",
+      "source_case_id": "tornado-13",
+      "source_experiment": "E002"
+    },
+    {
+      "case_id": "E004-N03",
+      "changed_efforts": [
+        {
+          "e007_all_changed_path_count": 0,
+          "e007_failing_test_identifiers": [
+            "test_replacing_values_does_not_retain_caller_mutation",
+            "(failures=1)"
+          ],
+          "e007_failure_taxonomy": "held-out/incomplete fix",
+          "e007_outcome": false,
+          "e007_recheck_status": "not_rechecked",
+          "e007_recorded_outcome": false,
+          "e007_run_id": "E007-E004-N03-MEDIUM",
+          "e007_source_files_after_generated_filter": [],
+          "e007_steps": 16,
+          "e007_suite_failure": "heldout",
+          "e007_tokens": 121988,
+          "e007_trace": {
+            "edit_calls_heuristic": 2,
+            "exploration_calls_heuristic": 9,
+            "first_edit_step_heuristic": 14,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 3,
+            "tool_calls": 11,
+            "trace_available": true,
+            "trace_steps": 16
+          },
+          "e007_wall_seconds": 90.90612900000997,
+          "effort": "medium",
+          "original_failure_taxonomy": "successful repair",
+          "original_outcome": true,
+          "original_run_id": "E004-N03-M",
+          "original_source_files": [],
+          "original_steps": 16,
+          "original_suite_failure": "none recorded",
+          "original_tokens": 124965,
+          "original_trace": {
+            "edit_calls_heuristic": 2,
+            "exploration_calls_heuristic": 10,
+            "first_edit_step_heuristic": 14,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 4,
+            "tool_calls": 12,
+            "trace_available": true,
+            "trace_steps": 10
+          },
+          "original_wall_seconds": 81.42096691695042
+        },
+        {
+          "e007_all_changed_path_count": 0,
+          "e007_failing_test_identifiers": [],
+          "e007_failure_taxonomy": "successful repair",
+          "e007_outcome": true,
+          "e007_recheck_status": "not_rechecked",
+          "e007_recorded_outcome": true,
+          "e007_run_id": "E007-E004-N03-MAX",
+          "e007_source_files_after_generated_filter": [],
+          "e007_steps": 18,
+          "e007_suite_failure": "all suites pass",
+          "e007_tokens": 190891,
+          "e007_trace": {
+            "edit_calls_heuristic": 1,
+            "exploration_calls_heuristic": 20,
+            "first_edit_step_heuristic": 15,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 3,
+            "tool_calls": 25,
+            "trace_available": true,
+            "trace_steps": 18
+          },
+          "e007_wall_seconds": 180.28072887501912,
+          "effort": "max",
+          "original_failure_taxonomy": "held-out/incomplete fix",
+          "original_outcome": false,
+          "original_run_id": "E004-N03-X",
+          "original_source_files": [],
+          "original_steps": 17,
+          "original_suite_failure": "none recorded",
+          "original_tokens": 160160,
+          "original_trace": {
+            "edit_calls_heuristic": 2,
+            "exploration_calls_heuristic": 16,
+            "first_edit_step_heuristic": 15,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 3,
+            "tool_calls": 21,
+            "trace_available": true,
+            "trace_steps": 11
+          },
+          "original_wall_seconds": 119.36251529096626
+        }
+      ],
+      "difficulty": "moderate",
+      "source_case_id": "E004-N03",
+      "source_experiment": "E004"
+    },
+    {
+      "case_id": "E005-K04",
+      "changed_efforts": [
+        {
+          "e007_all_changed_path_count": 0,
+          "e007_failing_test_identifiers": [],
+          "e007_failure_taxonomy": "successful repair",
+          "e007_outcome": true,
+          "e007_recheck_status": "not_rechecked",
+          "e007_recorded_outcome": true,
+          "e007_run_id": "E007-E005-K04-MEDIUM",
+          "e007_source_files_after_generated_filter": [],
+          "e007_steps": 38,
+          "e007_suite_failure": "all suites pass",
+          "e007_tokens": 689606,
+          "e007_trace": {
+            "edit_calls_heuristic": 4,
+            "exploration_calls_heuristic": 28,
+            "first_edit_step_heuristic": 18,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 1,
+            "tool_calls": 31,
+            "trace_available": true,
+            "trace_steps": 38
+          },
+          "e007_wall_seconds": 251.35783912497573,
+          "effort": "medium",
+          "original_failure_taxonomy": "multiple-suite failure (public + held-out)",
+          "original_outcome": false,
+          "original_run_id": "E005-K04-M",
+          "original_source_files": [
+            "tornado/web.py",
+            "tornado/websocket.py"
+          ],
+          "original_steps": 32,
+          "original_suite_failure": "Public and held-out behavior failed because cycle cleanup was moved into RequestHandler.finish, clearing template state before an ordinary WebSocket render; regression passed.",
+          "original_tokens": 26872,
+          "original_trace": {
+            "edit_calls_heuristic": 3,
+            "exploration_calls_heuristic": 21,
+            "first_edit_step_heuristic": 19,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 2,
+            "tool_calls": 26,
+            "trace_available": true,
+            "trace_steps": 26
+          },
+          "original_wall_seconds": 145.0603207090171
+        }
+      ],
+      "difficulty": "hard",
+      "source_case_id": "E005-K04",
+      "source_experiment": "E005"
+    },
+    {
+      "case_id": "E005-K02",
+      "changed_efforts": [
+        {
+          "e007_all_changed_path_count": 0,
+          "e007_failing_test_identifiers": [],
+          "e007_failure_taxonomy": "successful repair",
+          "e007_outcome": true,
+          "e007_recheck_status": "not_rechecked",
+          "e007_recorded_outcome": true,
+          "e007_run_id": "E007-E005-K02-MAX",
+          "e007_source_files_after_generated_filter": [],
+          "e007_steps": 97,
+          "e007_suite_failure": "all suites pass",
+          "e007_tokens": 5717960,
+          "e007_trace": {
+            "edit_calls_heuristic": 9,
+            "exploration_calls_heuristic": 61,
+            "first_edit_step_heuristic": 23,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 7,
+            "tool_calls": 93,
+            "trace_available": true,
+            "trace_steps": 97
+          },
+          "e007_wall_seconds": 744.8037050830317,
+          "effort": "max",
+          "original_failure_taxonomy": "held-out/incomplete fix",
+          "original_outcome": false,
+          "original_run_id": "E005-K02-X",
+          "original_source_files": [
+            "luigi/scheduler.py"
+          ],
+          "original_steps": 56,
+          "original_suite_failure": "Held-out behavior failed because the patch added the scheduler parameter and pruning call but did not enable pruning in the local scheduler factory; public and regression suites passed.",
+          "original_tokens": 69632,
+          "original_trace": {
+            "edit_calls_heuristic": 5,
+            "exploration_calls_heuristic": 47,
+            "first_edit_step_heuristic": 36,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 1,
+            "tool_calls": 54,
+            "trace_available": true,
+            "trace_steps": 50
+          },
+          "original_wall_seconds": 571.7501981660025
+        }
+      ],
+      "difficulty": "hard",
+      "source_case_id": "E005-K02",
+      "source_experiment": "E005"
+    },
+    {
+      "case_id": "E005-K01",
+      "changed_efforts": [
+        {
+          "e007_all_changed_path_count": 0,
+          "e007_failing_test_identifiers": [
+            "test_encoder_options_reach_models_and_containers",
+            "(failures=1)"
+          ],
+          "e007_failure_taxonomy": "held-out/incomplete fix",
+          "e007_outcome": false,
+          "e007_recheck_status": "not_rechecked",
+          "e007_recorded_outcome": false,
+          "e007_run_id": "E007-E005-K01-MEDIUM",
+          "e007_source_files_after_generated_filter": [],
+          "e007_steps": 48,
+          "e007_suite_failure": "heldout",
+          "e007_tokens": 1324263,
+          "e007_trace": {
+            "edit_calls_heuristic": 18,
+            "exploration_calls_heuristic": 34,
+            "first_edit_step_heuristic": 33,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 7,
+            "tool_calls": 54,
+            "trace_available": true,
+            "trace_steps": 48
+          },
+          "e007_wall_seconds": 375.06597058300395,
+          "effort": "medium",
+          "original_failure_taxonomy": "successful repair",
+          "original_outcome": true,
+          "original_run_id": "E005-K01-M",
+          "original_source_files": [
+            "fastapi/applications.py",
+            "fastapi/encoders.py",
+            "fastapi/openapi/utils.py",
+            "fastapi/routing.py"
+          ],
+          "original_steps": 81,
+          "original_suite_failure": "none recorded",
+          "original_tokens": 130442,
+          "original_trace": {
+            "edit_calls_heuristic": 26,
+            "exploration_calls_heuristic": 58,
+            "first_edit_step_heuristic": 31,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 7,
+            "tool_calls": 132,
+            "trace_available": true,
+            "trace_steps": 75
+          },
+          "original_wall_seconds": 771.6972634169506
+        }
+      ],
+      "difficulty": "hard",
+      "source_case_id": "E005-K01",
+      "source_experiment": "E005"
+    },
+    {
+      "case_id": "E005-H03",
+      "changed_efforts": [
+        {
+          "e007_all_changed_path_count": 0,
+          "e007_failing_test_identifiers": [],
+          "e007_failure_taxonomy": "successful repair",
+          "e007_outcome": true,
+          "e007_recheck_status": "not_rechecked",
+          "e007_recorded_outcome": true,
+          "e007_run_id": "E007-E005-H03-MAX",
+          "e007_source_files_after_generated_filter": [],
+          "e007_steps": 17,
+          "e007_suite_failure": "all suites pass",
+          "e007_tokens": 200563,
+          "e007_trace": {
+            "edit_calls_heuristic": 2,
+            "exploration_calls_heuristic": 14,
+            "first_edit_step_heuristic": 12,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 4,
+            "tool_calls": 17,
+            "trace_available": true,
+            "trace_steps": 17
+          },
+          "e007_wall_seconds": 207.63201287499396,
+          "effort": "max",
+          "original_failure_taxonomy": "regression introduced",
+          "original_outcome": false,
+          "original_run_id": "E005-H03-X",
+          "original_source_files": [
+            "src/wire_relay/framing.py",
+            "src/wire_relay/session.py"
+          ],
+          "original_steps": 18,
+          "original_suite_failure": "Regression failed because the attempted oversized-frame recovery skipped the following valid frame when the declared oversized payload bytes were not present; public and held-out suites passed.",
+          "original_tokens": 25378,
+          "original_trace": {
+            "edit_calls_heuristic": 3,
+            "exploration_calls_heuristic": 8,
+            "first_edit_step_heuristic": 13,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 4,
+            "tool_calls": 16,
+            "trace_available": true,
+            "trace_steps": 12
+          },
+          "original_wall_seconds": 226.06557695800439
+        }
+      ],
+      "difficulty": "hard",
+      "source_case_id": "E005-H03",
+      "source_experiment": "E005"
+    },
+    {
+      "case_id": "E006-H03",
+      "changed_efforts": [
+        {
+          "e007_all_changed_path_count": 0,
+          "e007_failing_test_identifiers": [],
+          "e007_failure_taxonomy": "successful repair",
+          "e007_outcome": true,
+          "e007_recheck_status": "valid",
+          "e007_recorded_outcome": false,
+          "e007_run_id": "E007-E006-H03-MEDIUM",
+          "e007_source_files_after_generated_filter": [],
+          "e007_steps": 15,
+          "e007_suite_failure": "all suites pass",
+          "e007_tokens": 123502,
+          "e007_trace": {
+            "edit_calls_heuristic": 2,
+            "exploration_calls_heuristic": 8,
+            "first_edit_step_heuristic": 12,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 2,
+            "tool_calls": 12,
+            "trace_available": true,
+            "trace_steps": 15
+          },
+          "e007_wall_seconds": 124.79168204200687,
+          "effort": "medium",
+          "original_failure_taxonomy": "held-out/incomplete fix",
+          "original_outcome": false,
+          "original_run_id": "E006-H03-M",
+          "original_source_files": [
+            "src/wire_relay/framing.py"
+          ],
+          "original_steps": 12,
+          "original_suite_failure": "public-suite failure",
+          "original_tokens": 70509,
+          "original_trace": {
+            "edit_calls_heuristic": 2,
+            "exploration_calls_heuristic": 7,
+            "first_edit_step_heuristic": 10,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 1,
+            "tool_calls": 10,
+            "trace_available": true,
+            "trace_steps": 6
+          },
+          "original_wall_seconds": 119.93797479209024
+        }
+      ],
+      "difficulty": "very-hard",
+      "source_case_id": "wire-relay",
+      "source_experiment": "E006"
+    },
+    {
+      "case_id": "E006-H01",
+      "changed_efforts": [
+        {
+          "e007_all_changed_path_count": 0,
+          "e007_failing_test_identifiers": [],
+          "e007_failure_taxonomy": "regression introduced",
+          "e007_outcome": false,
+          "e007_recheck_status": "valid",
+          "e007_recorded_outcome": false,
+          "e007_run_id": "E007-E006-H01-MAX",
+          "e007_source_files_after_generated_filter": [],
+          "e007_steps": 18,
+          "e007_suite_failure": "regression",
+          "e007_tokens": 224663,
+          "e007_trace": {
+            "edit_calls_heuristic": 2,
+            "exploration_calls_heuristic": 14,
+            "first_edit_step_heuristic": 12,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 3,
+            "tool_calls": 19,
+            "trace_available": true,
+            "trace_steps": 18
+          },
+          "e007_wall_seconds": 130.95040879200678,
+          "effort": "max",
+          "original_failure_taxonomy": "successful repair",
+          "original_outcome": true,
+          "original_run_id": "E006-H01-X",
+          "original_source_files": [
+            "src/feature_store/cache.py",
+            "src/feature_store/resolver.py"
+          ],
+          "original_steps": 18,
+          "original_suite_failure": "successful repair",
+          "original_tokens": 239665,
+          "original_trace": {
+            "edit_calls_heuristic": 3,
+            "exploration_calls_heuristic": 13,
+            "first_edit_step_heuristic": 12,
+            "telemetry_definition": "Heuristic count from preserved tool-call names/commands; not directly comparable to hidden reasoning/planning.",
+            "test_calls_heuristic": 3,
+            "tool_calls": 19,
+            "trace_available": true,
+            "trace_steps": 12
+          },
+          "original_wall_seconds": 409.5821003339952
+        }
+      ],
+      "difficulty": "very-hard",
+      "source_case_id": "feature-store",
+      "source_experiment": "E006"
+    }
+  ],
+  "groups": {
+    "E007_max": {
+      "held-out/incomplete fix": 5,
+      "regression introduced": 1,
+      "successful repair": 24
+    },
+    "E007_medium": {
+      "held-out/incomplete fix": 6,
+      "public-suite failure": 1,
+      "regression introduced": 1,
+      "successful repair": 22
+    },
+    "original_max": {
+      "held-out/incomplete fix": 6,
+      "regression introduced": 1,
+      "successful repair": 23
+    },
+    "original_medium": {
+      "held-out/incomplete fix": 4,
+      "multiple-suite failure (public + heldout)": 1,
+      "regression introduced": 1,
+      "successful repair": 24
+    }
+  },
+  "taxonomy": "Harmonized evaluator-suite failure classes, not causal diagnosis."
+}
